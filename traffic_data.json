@@ -1,0 +1,5644 @@
+{
+  "traffic_data": {
+    "-Omjh8G5pTQ5B7xn_Bta": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-02T17:59:32.190841+00:00"
+    },
+    "-Omjh8KtBIQ8JYuivbyA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-02T17:59:33.221673+00:00"
+    },
+    "-Omjh8OlnOOw---a5zyB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-02T17:59:33.527955+00:00"
+    },
+    "-Omjk_HTMYeWVjax2y3H": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-02T18:14:33.776202+00:00"
+    },
+    "-Omjk_LxiJgmPVO35Igw": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-02T18:14:34.423858+00:00"
+    },
+    "-Omjk_Q5VcRGuTqR-XmN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-02T18:14:34.711460+00:00"
+    },
+    "-OmlKV8B-zu2dIigo0bV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:35:28.963604+00:00"
+    },
+    "-OmlKVD6ekNlGuOqnmW1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:35:29.899487+00:00"
+    },
+    "-OmlKVGL3A4pLhfLG0jP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:35:30.213689+00:00"
+    },
+    "-OmlKVw2Kkac-mlf6ZK3": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:35:32.315085+00:00"
+    },
+    "-OmlKVzw6BFf3Pv2a5xl": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:35:33.149616+00:00"
+    },
+    "-OmlKW3V1Axb7B85kyQJ": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:35:33.398089+00:00"
+    },
+    "-OmlKYKMyo5KxJfR39EP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:35:42.123305+00:00"
+    },
+    "-OmlKYO750wLf7XVlrL7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:35:42.966143+00:00"
+    },
+    "-OmlKYSfmUcvUMV7Yqdo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:35:43.207364+00:00"
+    },
+    "-OmlK_2AbB2gWWfnRUBk": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:35:49.164622+00:00"
+    },
+    "-OmlK_5J30xh8LO2y1ur": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:35:49.989425+00:00"
+    },
+    "-OmlK_8fgWn39NjMHHX4": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:35:50.190272+00:00"
+    },
+    "-OmlKcdwf7FVNJ5nx64P": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:36:04.019732+00:00"
+    },
+    "-OmlKcivKk0zuDkoMk73": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:36:04.756171+00:00"
+    },
+    "-OmlKcmTviJ_8TCbDk0M": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:36:05.074746+00:00"
+    },
+    "-OmlKjgHMwIAzryRg0qq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:36:32.555957+00:00"
+    },
+    "-OmlKjld15n3uL5hKiXk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:36:33.580867+00:00"
+    },
+    "-OmlKjrBwFI4QDseJFd3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:36:33.923754+00:00"
+    },
+    "-OmlL3nO9TWjBVao65L8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:37:59.218484+00:00"
+    },
+    "-OmlL3rDKD2HubnathYH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:38:00.057691+00:00"
+    },
+    "-OmlL3vrcqYrzWD6WvIf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:38:00.302287+00:00"
+    },
+    "-OmlL7HWiwOQWoLMTXSM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:38:13.593597+00:00"
+    },
+    "-OmlL7LJpR1Z6m-4oTr8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:38:14.330012+00:00"
+    },
+    "-OmlL7PM0RVhIaiZstOz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:38:14.573947+00:00"
+    },
+    "-OmlL8uKH-d3m4tzz1iq": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:38:20.055368+00:00"
+    },
+    "-OmlL8xOP2Jxag13Yr7Q": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:38:20.972047+00:00"
+    },
+    "-OmlL9-ZuIDu5kQYxi6j": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:38:21.168222+00:00"
+    },
+    "-OmlLCAVNfUKdeTAray6": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:38:33.516816+00:00"
+    },
+    "-OmlLCEw3CGIijWfQdQG": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:38:34.366049+00:00"
+    },
+    "-OmlLCJ6piTnYS2URJFq": {
+      "confidence": 0,
+      "congestion_index": 0,
+      "current_speed": 0,
+      "free_flow_speed": 0,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:38:34.649082+00:00"
+    },
+    "-OmlMbxD478DrCBwkZYv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:44:45.712331+00:00"
+    },
+    "-OmlMc-HvPqt5r3t26bc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:44:46.168129+00:00"
+    },
+    "-OmlMc1m_6JdLZR68gPm": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:44:46.359860+00:00"
+    },
+    "-OmlOAjJDtBniulcZV0c": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T01:51:34.280099+00:00"
+    },
+    "-OmlOAnqZy-qjw9id9AX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T01:51:34.895411+00:00"
+    },
+    "-OmlOArdUoWloB_TZfeD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T01:51:35.185995+00:00"
+    },
+    "-OmlRbix49mMIUHRGMvC": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T02:06:35.428629+00:00"
+    },
+    "-OmlRbmN4TaGqrLywMGG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T02:06:35.999200+00:00"
+    },
+    "-OmlRbpZCSCfb3QvGMev": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T02:06:36.217044+00:00"
+    },
+    "-OmlqYOxjuZvNejGzHAx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T03:59:53.448964+00:00"
+    },
+    "-OmlqYShN2rFleWvL3xi": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T03:59:54.007918+00:00"
+    },
+    "-OmlqYWVlqEIo_PQKH3U": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T03:59:54.245937+00:00"
+    },
+    "-Omm6eB0vg7VOpXMZtJI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T05:14:37.849228+00:00"
+    },
+    "-Omm6eCrnOC2TYPWRqwG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T05:14:38.226050+00:00"
+    },
+    "-Omm6eEhenN4Foxu_zF-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T05:14:38.342214+00:00"
+    },
+    "-OmmI0IT4Zgxv5FtpEf3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T06:04:16.035536+00:00"
+    },
+    "-OmmI0KjOULPwprPuktp": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T06:04:16.496194+00:00"
+    },
+    "-OmmI0Mo3tRW3rpQotEE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T06:04:16.639830+00:00"
+    },
+    "-OmmWkhSPOcYn82wMxMS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T07:08:40.142526+00:00"
+    },
+    "-OmmWklHG3v0ARGr90ga": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T07:08:40.699594+00:00"
+    },
+    "-OmmWkp6euzHrHptUhol": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T07:08:40.943518+00:00"
+    },
+    "-OmmfoBgSaFuz1x5z56K": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T07:52:35.861441+00:00"
+    },
+    "-OmmfoEZ58faWjASkNxB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T07:52:36.406087+00:00"
+    },
+    "-OmmfoHEO_yjqPeXwAWG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T07:52:36.589240+00:00"
+    },
+    "-OmmnqHoBauEayeZ14Op": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T08:27:41.683370+00:00"
+    },
+    "-OmmnqJlKfD7CQCxlXIW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T08:27:42.149421+00:00"
+    },
+    "-OmmnqLi6OKAlqs_cP0g": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T08:27:42.273041+00:00"
+    },
+    "-OmmwdJsdTORW3Z6QVRj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T09:06:07.745015+00:00"
+    },
+    "-OmmwdOMV9ddeypW78-G": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T09:06:08.336263+00:00"
+    },
+    "-OmmwdT-ryM869t1bg6s": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T09:06:08.621718+00:00"
+    },
+    "-Omn7mWR1RW4Zro3jIlQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T09:59:11.309494+00:00"
+    },
+    "-Omn7mZ344M1yK-lblRe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T09:59:11.726130+00:00"
+    },
+    "-Omn7maN_cb7zOAMy295": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T09:59:11.892943+00:00"
+    },
+    "-OmnGhoLMm6If3omLD4_": {
+      "confidence": 0.957893,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T10:38:11.361932+00:00"
+    },
+    "-OmnGhqR_Fir-AFwJviR": {
+      "confidence": 0.957893,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T10:38:11.752758+00:00"
+    },
+    "-OmnGhsK-Pl-GRxVl98_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T10:38:11.886265+00:00"
+    },
+    "-OmnPpTB-eW9_BA9jMqT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T11:18:02.001102+00:00"
+    },
+    "-OmnPpVYGQH1V7RQBMDB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T11:18:02.398288+00:00"
+    },
+    "-OmnPpXWQMvAcDJgT2R8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T11:18:02.547777+00:00"
+    },
+    "-OmnXPf0rDadmSKfYU7p": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T11:51:09.209731+00:00"
+    },
+    "-OmnXPiG_vzHy64oO5PS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T11:51:09.779017+00:00"
+    },
+    "-OmnXPlivPSNJpMfWsNe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T11:51:09.985893+00:00"
+    },
+    "-OmnfR_i3DXfrAiU3Ryy": {
+      "confidence": 0.955417,
+      "congestion_index": 0.2916666666666667,
+      "current_speed": 34,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T12:30:36.314146+00:00"
+    },
+    "-OmnfReW503T2xkazTkP": {
+      "confidence": 0.955417,
+      "congestion_index": 0.2916666666666667,
+      "current_speed": 34,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T12:30:36.934096+00:00"
+    },
+    "-OmnfRjVf07l2w8NFpCl": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T12:30:37.240365+00:00"
+    },
+    "-OmnwF68t9dh3RZae0Ev": {
+      "confidence": 0.942592,
+      "congestion_index": 0.1836734693877551,
+      "current_speed": 40,
+      "free_flow_speed": 49,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T13:44:01.871987+00:00"
+    },
+    "-OmnwF8KC6OuXY4TzMdZ": {
+      "confidence": 0.942592,
+      "congestion_index": 0.1836734693877551,
+      "current_speed": 40,
+      "free_flow_speed": 49,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T13:44:02.268231+00:00"
+    },
+    "-OmnwFAXkzeui19HSbPX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T13:44:02.407148+00:00"
+    },
+    "-Omo5TrirVT1H2UO3cKq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T14:28:43.549146+00:00"
+    },
+    "-Omo5TvNQ1fNm1jNWvk3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T14:28:44.152179+00:00"
+    },
+    "-Omo5U-89XmviGK_HtIs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T14:28:44.384768+00:00"
+    },
+    "-OmoFL5PSH3fc08tiXgw": {
+      "confidence": 0.926345,
+      "congestion_index": 0.2978723404255319,
+      "current_speed": 33,
+      "free_flow_speed": 47,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T15:11:49.126057+00:00"
+    },
+    "-OmoFL8Low5RefrZ-Tfw": {
+      "confidence": 0.926345,
+      "congestion_index": 0.2978723404255319,
+      "current_speed": 33,
+      "free_flow_speed": 47,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T15:11:49.667880+00:00"
+    },
+    "-OmoFLBWKER4rWTzKUAt": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T15:11:49.854976+00:00"
+    },
+    "-OmoQCnN26Be5HI1wBUg": {
+      "confidence": 0.956054,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T15:59:18.732039+00:00"
+    },
+    "-OmoQCrQa5RVO8bl40iH": {
+      "confidence": 0.956054,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T15:59:19.270914+00:00"
+    },
+    "-OmoQCvBchgiqHKbii3n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T15:59:19.529601+00:00"
+    },
+    "-OmoaS5_BmDMxL87B6YJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T16:48:25.133330+00:00"
+    },
+    "-OmoaS7TLrnfRAwI3WM7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T16:48:25.525853+00:00"
+    },
+    "-OmoaS9QuGCx2t3KT0Ba": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T16:48:25.645978+00:00"
+    },
+    "-OmokwCjcXV7GC0JAYha": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T17:34:13.873126+00:00"
+    },
+    "-OmokwFe7f9fh_Ca-Vf3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T17:34:14.391676+00:00"
+    },
+    "-OmokwIYQFDWtw691ea0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T17:34:14.577385+00:00"
+    },
+    "-OmowvUNz2jwi7XotnmD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T18:26:36.793850+00:00"
+    },
+    "-OmowvWe0OYTg-x2v6Fz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T18:26:37.161518+00:00"
+    },
+    "-OmowvZG6bIEJv2EgvqL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T18:26:37.306273+00:00"
+    },
+    "-Omp6dE8hN4LFvWdQLuv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T19:13:25.508258+00:00"
+    },
+    "-Omp6dHAG6SlT9HUhf9J": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T19:13:25.969634+00:00"
+    },
+    "-Omp6dKPw7tWbNk6Zw3c": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T19:13:26.163018+00:00"
+    },
+    "-OmpF6zp91MBm7VE8OOf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T19:50:28.576004+00:00"
+    },
+    "-OmpF71PBmVgKHxZpIEa": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T19:50:29.128805+00:00"
+    },
+    "-OmpF741_ZKOWHCLTrOz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T19:50:29.292425+00:00"
+    },
+    "-OmpM9BnnIDsTk7qcWdI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T20:21:12.577558+00:00"
+    },
+    "-OmpM9F0AUFnsKEpPgxN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T20:21:13.148804+00:00"
+    },
+    "-OmpM9HwSNnYxqd6nQYU": {
+      "confidence": 0.829694,
+      "congestion_index": 0.1276595744680851,
+      "current_speed": 41,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T20:21:13.354509+00:00"
+    },
+    "-OmpTY9pP-kl5WSkSJJH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T20:53:29.962833+00:00"
+    },
+    "-OmpTYDJzkx0_7JoehHj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T20:53:30.430429+00:00"
+    },
+    "-OmpTYGJV4rB3kcRvuvd": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T20:53:30.652624+00:00"
+    },
+    "-Omp_HcbJT1xk7KThKnJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T21:22:57.081960+00:00"
+    },
+    "-Omp_Hh2frW_QLo98AUu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T21:22:57.721699+00:00"
+    },
+    "-Omp_HlvXVm8HVjjtj-j": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T21:22:58.003848+00:00"
+    },
+    "-Ompg5TCi9NOOE6VrgPH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T21:52:42.323813+00:00"
+    },
+    "-Ompg5X_NHm3339e2HR_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T21:52:42.912464+00:00"
+    },
+    "-Ompg5c7JLGtsOYxJTvg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T21:52:43.191964+00:00"
+    },
+    "-Omplh-TqquepN95nD79": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T22:17:10.847625+00:00"
+    },
+    "-Omplh3w8E1embhM4wSx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T22:17:11.475827+00:00"
+    },
+    "-Omplh8w7kymrFy7kSB1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T22:17:11.760379+00:00"
+    },
+    "-OmptOlS-rIqfXSmnUyJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T22:50:49.439337+00:00"
+    },
+    "-OmptOna_L3GZ83VE0wr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T22:50:49.839960+00:00"
+    },
+    "-OmptOpmpe7rZFjy48LL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T22:50:49.975765+00:00"
+    },
+    "-OmpyyPtxI98YP8RbEYC": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T23:15:10.101741+00:00"
+    },
+    "-OmpyyUtTVw2RYxfy6Ld": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T23:15:10.673080+00:00"
+    },
+    "-OmpyyZVai9EGb5QXqXy": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T23:15:10.992204+00:00"
+    },
+    "-Omq4C0XETg9cV2sJ96E": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T23:42:22.805091+00:00"
+    },
+    "-Omq4C4D9WPTE5J1QDcm": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T23:42:23.348969+00:00"
+    },
+    "-Omq4C7fg1uTO6pe5xqV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T23:42:23.583624+00:00"
+    },
+    "-Omq7p217nIeB_jGm4Mo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-03T23:58:12.577314+00:00"
+    },
+    "-Omq7p5m59qIRw9wLCGn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-03T23:58:13.729616+00:00"
+    },
+    "-Omq7p9Zupa06RQTyqsT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-03T23:58:13.969288+00:00"
+    },
+    "-OmqWzcnIQRk0JAsETEd": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T01:48:10.253469+00:00"
+    },
+    "-OmqWzfNTptonAarqcJQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T01:48:10.695407+00:00"
+    },
+    "-OmqWzhpczCrboNn3rBe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T01:48:10.858173+00:00"
+    },
+    "-OmqzfRGC4uMa2jU8PM-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T03:57:51.895932+00:00"
+    },
+    "-OmqzfUHtjuMIHH9urL8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T03:57:52.281828+00:00"
+    },
+    "-OmqzfWvEcaBQrXDClVC": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T03:57:52.474049+00:00"
+    },
+    "-OmrEKv2OITBJkqI_m21": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T05:06:17.899393+00:00"
+    },
+    "-OmrEKymJMdWN7qd1Frs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T05:06:18.465909+00:00"
+    },
+    "-OmrEL1R1hxd6XQ1C-qI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T05:06:18.704907+00:00"
+    },
+    "-OmrQ6Z63by2GMr1yUHJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T05:57:44.941434+00:00"
+    },
+    "-OmrQ6adc5f1czAm8Hu1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T05:57:45.368829+00:00"
+    },
+    "-OmrQ6csCft6RoDPz6so": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T05:57:45.530322+00:00"
+    },
+    "-Omr_0PDXAhtBCDTzGp2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T06:41:01.161821+00:00"
+    },
+    "-Omr_0RVTvpAdwuvP5qR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T06:41:01.601069+00:00"
+    },
+    "-Omr_0TlcKLobl4HgNPN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T06:41:01.745945+00:00"
+    },
+    "-OmrjHe17PfHN852zFNK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T07:25:53.255309+00:00"
+    },
+    "-OmrjHgZeVKuDEDDrMIe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T07:25:53.674839+00:00"
+    },
+    "-OmrjHjaKc_sNyL1SaJh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T07:25:53.836453+00:00"
+    },
+    "-Omrq0SsqeYK-LHpO2Lt": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T07:55:17.837953+00:00"
+    },
+    "-Omrq0VIcGa4jy9cq8UQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T07:55:18.281762+00:00"
+    },
+    "-Omrq0XXZLBUzB76jNc4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T07:55:18.435628+00:00"
+    },
+    "-OmrwwBfdHPL-q8-_7HF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T08:25:31.268014+00:00"
+    },
+    "-OmrwwEpLtBR3-O2_JiS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T08:25:31.699607+00:00"
+    },
+    "-OmrwwI3Afgw1IbDK7gZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T08:25:31.900891+00:00"
+    },
+    "-Oms46WVBTfaitEAPBH3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T09:01:14.835853+00:00"
+    },
+    "-Oms46Y_vzZxcuDNIrVi": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T09:01:15.248961+00:00"
+    },
+    "-Oms46_OSXHyf9AVOGfH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T09:01:15.381197+00:00"
+    },
+    "-OmsGk6mgwBiT_cQse9c": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T09:56:26.740391+00:00"
+    },
+    "-OmsGk9AQ9JRTsS7Wv9C": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T09:56:27.271004+00:00"
+    },
+    "-OmsGkBXahJ24gxxOEnf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T09:56:27.420432+00:00"
+    },
+    "-OmsNy3fOmNYm2JuSQ1D": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T10:27:58.868451+00:00"
+    },
+    "-OmsNy70KEVGPN4VEhgA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T10:27:59.422444+00:00"
+    },
+    "-OmsNyAGy_RA5BeTi5dL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T10:27:59.635219+00:00"
+    },
+    "-OmsVtdqQvrYYE-NvpiF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T11:02:38.080584+00:00"
+    },
+    "-OmsVtgqRd9akAIGstJu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T11:02:38.463176+00:00"
+    },
+    "-OmsVtjxyHpnJ7ToB0lF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T11:02:38.654126+00:00"
+    },
+    "-OmseGZCujQp9D8bir1_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T11:43:35.193628+00:00"
+    },
+    "-OmseGbGtvh1n_NsUyX1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T11:43:35.701432+00:00"
+    },
+    "-OmseGe5LO-Hb8PAi0nK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T11:43:35.897448+00:00"
+    },
+    "-OmshgJ5-lhydiKXe7jb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T11:58:31.043675+00:00"
+    },
+    "-OmshgMS5PXJUe7YfDWr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T11:58:31.705118+00:00"
+    },
+    "-OmshgQ9XoNqr3NEyiwt": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T11:58:31.920085+00:00"
+    },
+    "-OmstuVhMjOLe5wKFviA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T12:51:55.130143+00:00"
+    },
+    "-OmstuYfA3VAB3Gw_kWD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T12:51:55.571490+00:00"
+    },
+    "-OmstuahDfjfmtqiQEHJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T12:51:55.759948+00:00"
+    },
+    "-Omt5j8BfvrA_Ni8GDOc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T13:47:56.321925+00:00"
+    },
+    "-Omt5jBdpME7f-9YRUKh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T13:47:56.898821+00:00"
+    },
+    "-Omt5jEtV982BwpE3Rwx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T13:47:57.114722+00:00"
+    },
+    "-OmtFWRAKCk1ufnEhf-b": {
+      "confidence": 0.911524,
+      "congestion_index": 0.1875,
+      "current_speed": 39,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T14:30:41.765717+00:00"
+    },
+    "-OmtFWToVAw-G_yKeNy-": {
+      "confidence": 0.911524,
+      "congestion_index": 0.1875,
+      "current_speed": 39,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T14:30:42.206201+00:00"
+    },
+    "-OmtFWW-RkRy6upBGbeK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T14:30:42.374123+00:00"
+    },
+    "-OmtRGejhhmYhP7DLjT_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T15:22:02.962332+00:00"
+    },
+    "-OmtRGgusyta-sruqoO0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T15:22:03.325841+00:00"
+    },
+    "-OmtRGj5IxHSFzuUMyHz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T15:22:03.463253+00:00"
+    },
+    "-Omt_9bGEjnnIbTlSpSo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T16:00:53.362719+00:00"
+    },
+    "-Omt_9dYQrj5foNFOwHJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T16:00:53.732929+00:00"
+    },
+    "-Omt_9gOUoZT-Gvxpq_Z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T16:00:53.876828+00:00"
+    },
+    "-OmtmyyKtGPxJNkcCJo7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T17:01:15.649589+00:00"
+    },
+    "-Omtmz-9iczJI4Eanfc7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T17:01:16.071093+00:00"
+    },
+    "-Omtmz11P_OaqS22zf5m": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T17:01:16.185991+00:00"
+    },
+    "-OmtzRx4teBHXRmiXwdg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T17:55:44.074954+00:00"
+    },
+    "-OmtzS-rlGNNlRSq6FPJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T17:55:44.612541+00:00"
+    },
+    "-OmtzS3rbqun4eW7bweW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T17:55:44.854495+00:00"
+    },
+    "-Omu7CZ3be3fGOiNrXJV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T18:34:00.383913+00:00"
+    },
+    "-Omu7CbASxnjf2wY84pb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T18:34:00.848016+00:00"
+    },
+    "-Omu7CeMv4kuWHFXBtIq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T18:34:01.043071+00:00"
+    },
+    "-OmuIwDLS8fVevxV3zXq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T19:25:15.033461+00:00"
+    },
+    "-OmuIwFoB9Csp0FfkSzI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T19:25:15.560450+00:00"
+    },
+    "-OmuIwI4pb1OLVgVj8aI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T19:25:15.717155+00:00"
+    },
+    "-OmuPbr8krMsmCBkyUxE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T19:54:26.714575+00:00"
+    },
+    "-OmuPbtti06a5IibmW6j": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T19:54:27.154478+00:00"
+    },
+    "-OmuPbwgFwRaSuciBQbK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T19:54:27.329001+00:00"
+    },
+    "-OmuVmjqB8xK1x2sXDWG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T20:21:24.062425+00:00"
+    },
+    "-OmuVmn_N0cgviIIBDTQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T20:21:24.626513+00:00"
+    },
+    "-OmuVmrK3Guz714a8HM3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T20:21:24.864934+00:00"
+    },
+    "-Omuc7vcK15vh8_pLDUz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T20:53:29.819946+00:00"
+    },
+    "-Omuc8-3EB08EuGbMw2y": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T20:53:30.497990+00:00"
+    },
+    "-Omuc83q5_qBeKifxVoV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T20:53:30.780392+00:00"
+    },
+    "-OmuiovBnfrK4L8836au": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T21:22:43.004342+00:00"
+    },
+    "-OmuioytEdaSjjqL-hZ1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T21:22:43.557573+00:00"
+    },
+    "-Omuip1ikCffOGg--ebp": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T21:22:43.793554+00:00"
+    },
+    "-Omuq-_pzN4VEGokzLSo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T21:54:05.813124+00:00"
+    },
+    "-Omuq-dVzJ8cGAOD6Sn1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T21:54:06.363108+00:00"
+    },
+    "-Omuq-h7mJZUmKUH2-WA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T21:54:06.596557+00:00"
+    },
+    "-Omuvu7rMi5jY3kELiIJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T22:19:52.073856+00:00"
+    },
+    "-OmuvuBygYCaOYMGqeOU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T22:19:52.771785+00:00"
+    },
+    "-OmuvuFqA-9X6nDTef2q": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T22:19:53.032904+00:00"
+    },
+    "-Omv2px6ZdY7VEDEzDLo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T22:54:32.207182+00:00"
+    },
+    "-Omv2q0vgfVqFVts6XG3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T22:54:32.797524+00:00"
+    },
+    "-Omv2q5PCsrlFt8PuU1A": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T22:54:33.104360+00:00"
+    },
+    "-Omv8bDFD6KteYGICJTT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T23:19:44.808177+00:00"
+    },
+    "-Omv8bH3KHHVBqcV08RR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T23:19:45.326463+00:00"
+    },
+    "-Omv8bKsc_2dSlx-Z9hT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T23:19:45.568403+00:00"
+    },
+    "-OmvFLGKGGRxQr70esOE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-04T23:49:10.469867+00:00"
+    },
+    "-OmvFLIeMukoSmS65JtT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-04T23:49:10.888587+00:00"
+    },
+    "-OmvFLLH2n9KtHB-17cQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-04T23:49:11.036667+00:00"
+    },
+    "-OmvWYt6pxzz2IfjBC7G": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T01:04:22.497118+00:00"
+    },
+    "-OmvWYwr3U2H4Nhl7U5o": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T01:04:23.126023+00:00"
+    },
+    "-OmvWZ-xf7UuZLBC5y8F": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T01:04:23.365132+00:00"
+    },
+    "-Omw3NWV_CkzHznd6cHn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T03:36:31.058726+00:00"
+    },
+    "-Omw3NYiJpXDnOwpa7JP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T03:36:31.605298+00:00"
+    },
+    "-Omw3Na-3fv0QUOXwax4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T03:36:31.745578+00:00"
+    },
+    "-OmwNGT-vSTDEWEQvajx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T05:03:25.020252+00:00"
+    },
+    "-OmwNGVjcV9jbnM37Xvs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T05:03:25.578249+00:00"
+    },
+    "-OmwNGYZMc3em87kHzvS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T05:03:25.752123+00:00"
+    },
+    "-Omw_SwMoJbi-dn3d-UD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T06:01:03.997423+00:00"
+    },
+    "-Omw_Sz3qGrDZZ3Hc4pB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T06:01:04.545190+00:00"
+    },
+    "-Omw_T1FJgOpNxajAS_L": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T06:01:04.739580+00:00"
+    },
+    "-OmwosjJXvDYFMo8dw0x": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T07:08:25.945991+00:00"
+    },
+    "-OmwosnCLr1PqUPfjlVm": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T07:08:26.482848+00:00"
+    },
+    "-Omwosqr5mac9T_r3o8b": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T07:08:26.731910+00:00"
+    },
+    "-Omwyz2x8Juk3H2AzSfF": {
+      "confidence": 0.977082,
+      "congestion_index": 0.20833333333333334,
+      "current_speed": 38,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T07:52:33.235105+00:00"
+    },
+    "-Omwyz64dIPZ5hGxhAin": {
+      "confidence": 0.977082,
+      "congestion_index": 0.20833333333333334,
+      "current_speed": 38,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T07:52:33.798269+00:00"
+    },
+    "-Omwyz984KXuBH9OexB_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T07:52:34.000660+00:00"
+    },
+    "-Omx5vMh6YCB9jWZm831": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T08:27:15.328779+00:00"
+    },
+    "-Omx5vPTNXBExsdkVShk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T08:27:15.834151+00:00"
+    },
+    "-Omx5vSMomydoM2_Qz5R": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T08:27:16.007575+00:00"
+    },
+    "-OmxEdbR6axzEu5pjzUf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T09:05:21.895946+00:00"
+    },
+    "-OmxEdf3NeNKLdyNS_DA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T09:05:22.414751+00:00"
+    },
+    "-OmxEdix8T4PU70MxD_g": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T09:05:22.646688+00:00"
+    },
+    "-OmxRBB39kDO7PdNqQDB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T10:00:09.198457+00:00"
+    },
+    "-OmxRBEgq-CBbo9ssqx7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T10:00:09.764334+00:00"
+    },
+    "-OmxRBIE6tRJ2tBHaNx8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T10:00:09.994618+00:00"
+    },
+    "-Omx_eElcAZikoe2sPfZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T10:41:31.699478+00:00"
+    },
+    "-Omx_eHykmRBXZboqAHY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T10:41:32.161250+00:00"
+    },
+    "-Omx_eLkitbXXTvAByVY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T10:41:32.365997+00:00"
+    },
+    "-OmxiXRRkYKQIpC53n0M": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T11:20:19.019343+00:00"
+    },
+    "-OmxiXTOGIbwvm9HUA7M": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T11:20:19.500394+00:00"
+    },
+    "-OmxiXVAy8qPxNpWKWqw": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T11:20:19.625330+00:00"
+    },
+    "-OmxprmUs0Dx_OYIre2o": {
+      "confidence": 0.933995,
+      "congestion_index": 0.1875,
+      "current_speed": 39,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T11:52:21.392501+00:00"
+    },
+    "-OmxprpxRV9e8HWwp0Pz": {
+      "confidence": 0.933995,
+      "congestion_index": 0.1875,
+      "current_speed": 39,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T11:52:21.930029+00:00"
+    },
+    "-OmxprszM1Rv8XYvZ2KU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T11:52:22.151500+00:00"
+    },
+    "-OmxzEwBCh1ZgvFRguGv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T12:33:19.735410+00:00"
+    },
+    "-OmxzEynPdnFdT1yst-h": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T12:33:20.151214+00:00"
+    },
+    "-OmxzF1Ko8Yc-7_08z-Z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T12:33:20.316839+00:00"
+    },
+    "-OmyF3MVyBSNXLMz_M25": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T13:46:48.858660+00:00"
+    },
+    "-OmyF3PErbFJ8w59c8Pg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T13:46:49.202550+00:00"
+    },
+    "-OmyF3ROopqeQCrOqZXv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T13:46:49.376078+00:00"
+    },
+    "-OmyQeguIwtpAG5jO9Zu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T14:37:29.271017+00:00"
+    },
+    "-OmyQejRLUCFySVEgPhq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T14:37:29.805245+00:00"
+    },
+    "-OmyQelkxJWAHuo9PaNn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T14:37:29.963840+00:00"
+    },
+    "-OmycOG3129R9b0fSNAQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T15:33:05.775178+00:00"
+    },
+    "-OmycOIELO81u4ejNOCn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T15:33:06.262854+00:00"
+    },
+    "-OmycOKR5ZSEycQtXufE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T15:33:06.400289+00:00"
+    },
+    "-Omz6Kohr-QFlIdVSDmS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T17:48:18.204421+00:00"
+    },
+    "-Omz6Kr0fS8CZ1tWPOxT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T17:48:18.623291+00:00"
+    },
+    "-Omz6KtOhgzectFGiGv8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T17:48:18.770659+00:00"
+    },
+    "-OmzNzQVTrAw64ahFSVR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T19:05:24.948613+00:00"
+    },
+    "-OmzNzUsVjIhoMkTQ0ok": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T19:05:25.494461+00:00"
+    },
+    "-OmzNzZevHbSsXH7PYa1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T19:05:25.773721+00:00"
+    },
+    "-Omz_Khvd5bLqdKImW1f": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T19:59:22.100251+00:00"
+    },
+    "-Omz_KkgMQQTOLNghu3I": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T19:59:22.503349+00:00"
+    },
+    "-Omz_KnlfixU66dPw93Q": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T19:59:22.678758+00:00"
+    },
+    "-Omzhw9E6wv1snZssTdL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T20:36:56.617188+00:00"
+    },
+    "-OmzhwDq7AsObf1LOOG5": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T20:36:57.272025+00:00"
+    },
+    "-OmzhwG15Lhgw4hp65WW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T20:36:57.415562+00:00"
+    },
+    "-OmzoQZL32yQ61PO0AbJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T21:05:18.070054+00:00"
+    },
+    "-OmzoQc68CLtlNqZOxyV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T21:05:18.648240+00:00"
+    },
+    "-OmzoQfrSZqM53baESZ0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T21:05:18.885232+00:00"
+    },
+    "-OmzyP38k8Z8pRZLrM_L": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T21:48:53.393573+00:00"
+    },
+    "-OmzyP7TyYNoJRtscWBS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T21:48:54.010925+00:00"
+    },
+    "-OmzyPA8CTHPX5H5S1Bj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T21:48:54.187009+00:00"
+    },
+    "-On-4JC74z9_ClbDmnTe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T22:19:04.397999+00:00"
+    },
+    "-On-4JFLMWDquFQzkeeA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T22:19:04.919186+00:00"
+    },
+    "-On-4JI08oET8hSfjYTb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T22:19:05.121443+00:00"
+    },
+    "-On-L5gfxO7EKYrq1Ocy": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-05T23:32:25.508413+00:00"
+    },
+    "-On-L5kVv18rwhmiQ-43": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-05T23:32:26.059689+00:00"
+    },
+    "-On-L5o7xypCcKRZJ-zE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-05T23:32:26.304337+00:00"
+    },
+    "-On-T6rUqrS8qleszK49": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T00:07:27.517331+00:00"
+    },
+    "-On-T6teDA0NZI5OSkK0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T00:07:27.984922+00:00"
+    },
+    "-On-T6vt8m2ARZDAOxPz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T00:07:28.123640+00:00"
+    },
+    "-On02I_dF3WKxPMDL8_N": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T02:49:54.760054+00:00"
+    },
+    "-On02IdR2bPsW7Ixj8YD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T02:49:55.340435+00:00"
+    },
+    "-On02IhJ2a3Z5VRt9Ma7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T02:49:55.584360+00:00"
+    },
+    "-On0ODe5pOrYo6zkavUz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T04:25:41.714069+00:00"
+    },
+    "-On0ODhoZbYEdXFpDbH_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T04:25:42.314684+00:00"
+    },
+    "-On0ODlTChTI9ZCvoG1-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T04:25:42.549474+00:00"
+    },
+    "-On0bZLX6L-Pn5iHeTuh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T05:28:20.747584+00:00"
+    },
+    "-On0bZNhOuAECOG7tDUj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T05:28:21.173739+00:00"
+    },
+    "-On0bZPo0QAfAoKoyqDO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T05:28:21.311285+00:00"
+    },
+    "-On0js3hGO545srouOUb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T06:04:38.591218+00:00"
+    },
+    "-On0js846vp3MxBhT8PX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T06:04:39.109830+00:00"
+    },
+    "-On0jsCfbi9NBKysPk38": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T06:04:39.396994+00:00"
+    },
+    "-On0xza8IOouyBNPPxpa": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T07:06:19.345322+00:00"
+    },
+    "-On0xzehtD0kCm6kmOig": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T07:06:19.938798+00:00"
+    },
+    "-On0xzjG9ZBTvwc_HOZf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T07:06:20.233182+00:00"
+    },
+    "-On17-VG7tEnUS8gepFj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T07:50:04.586829+00:00"
+    },
+    "-On17-Y2H-xhfnRTz5fr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T07:50:05.077588+00:00"
+    },
+    "-On17-_lVTLOe6juQqml": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T07:50:05.255846+00:00"
+    },
+    "-On1ElLK_5POgfy-TTSk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T08:23:59.611179+00:00"
+    },
+    "-On1ElPg-ahAi-UFVAkM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T08:24:00.182354+00:00"
+    },
+    "-On1ElTMHkyQQyGM14mg": {
+      "confidence": 0.968597,
+      "congestion_index": 0.1702127659574468,
+      "current_speed": 39,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T08:24:00.460322+00:00"
+    },
+    "-On1N8t-KMUnSaoXiCQz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T09:00:37.278686+00:00"
+    },
+    "-On1N8xjMX1Qs32iAc-v": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T09:00:37.848011+00:00"
+    },
+    "-On1N91HR4v5uJjQbO5l": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T09:00:38.152469+00:00"
+    },
+    "-On1ZU6TD0JCi4Mwh5lO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T09:54:30.046831+00:00"
+    },
+    "-On1ZUAW3KhJID07SIhM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T09:54:30.512717+00:00"
+    },
+    "-On1ZUDx19hCbwhcw-DT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T09:54:30.771021+00:00"
+    },
+    "-On1f3cb_Mpy15-Eh3Sr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T10:23:16.641010+00:00"
+    },
+    "-On1f3f2yLppl8CuC8PL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T10:23:17.049301+00:00"
+    },
+    "-On1f3hP9w43e_o-DI0e": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T10:23:17.206548+00:00"
+    },
+    "-On1nRn596dW9dM5xZBV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T10:59:52.604737+00:00"
+    },
+    "-On1nRr3J4txjbQPA91V": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T10:59:53.195062+00:00"
+    },
+    "-On1nRumwj1GiaY7Aygb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T10:59:53.446857+00:00"
+    },
+    "-On1uMz--I9g3F1IudyQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T11:30:07.483802+00:00"
+    },
+    "-On1uN1Hi644VnVx1Lnp": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T11:30:08.468239+00:00"
+    },
+    "-On1uN4gzSEIWbVMIkgS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T11:30:08.679295+00:00"
+    },
+    "-On1zJb9vFU3eY2fb7hD": {
+      "confidence": 0.954369,
+      "congestion_index": 0.10416666666666667,
+      "current_speed": 43,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T11:51:44.976208+00:00"
+    },
+    "-On1zJdV6zqpADo72phH": {
+      "confidence": 0.954369,
+      "congestion_index": 0.10416666666666667,
+      "current_speed": 43,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T11:51:45.375042+00:00"
+    },
+    "-On1zJfoY4fkm2usKy2i": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T11:51:45.522346+00:00"
+    },
+    "-On26m7v9KNglzLS-liW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T12:28:43.060239+00:00"
+    },
+    "-On26mACV05L85vQ6QFc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T12:28:43.469152+00:00"
+    },
+    "-On26mCG_qvCAcqMS-zI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T12:28:43.616327+00:00"
+    },
+    "-On2LkeyWr0Nxpb9IChH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T13:34:09.056504+00:00"
+    },
+    "-On2LkiWzjBlEESX-eNF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T13:34:09.617041+00:00"
+    },
+    "-On2LkmHxQvQNaSzagZS": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T13:34:09.844987+00:00"
+    },
+    "-On2Wga5ObflNrHo1_VU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T14:21:55.922684+00:00"
+    },
+    "-On2WgdIWWC3hksFKtJT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T14:21:56.495991+00:00"
+    },
+    "-On2WggNR04l4VQIipA0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T14:21:56.701650+00:00"
+    },
+    "-On2engl6nlXp60EK2yP": {
+      "confidence": 0.960335,
+      "congestion_index": 0.22916666666666666,
+      "current_speed": 37,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T15:01:44.328061+00:00"
+    },
+    "-On2enkD3rnFFx2AJSuA": {
+      "confidence": 0.960335,
+      "congestion_index": 0.22916666666666666,
+      "current_speed": 37,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T15:01:44.889236+00:00"
+    },
+    "-On2enmvu-ebGorGgE8o": {
+      "confidence": 0.907003,
+      "congestion_index": 0.1276595744680851,
+      "current_speed": 41,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T15:01:45.114324+00:00"
+    },
+    "-On2qQthLHNu3a5qvINK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T15:52:32.657694+00:00"
+    },
+    "-On2qQxQLu4eUzQuNCQ1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T15:52:33.155235+00:00"
+    },
+    "-On2qR-ebOu9Qd7axhfx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T15:52:33.389801+00:00"
+    },
+    "-On2yCGJeUe8aL9O2cGW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T16:26:29.883362+00:00"
+    },
+    "-On2yCJNDeA42VSVXPt3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T16:26:30.367463+00:00"
+    },
+    "-On2yCMH-bwmnbSej7F4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T16:26:30.559593+00:00"
+    },
+    "-On35rSBO-J16KWgvDIb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T17:04:19.713541+00:00"
+    },
+    "-On35rWnFdtH05gMdm6k": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T17:04:20.328336+00:00"
+    },
+    "-On35ra-vgfvKcDOVa97": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T17:04:20.621636+00:00"
+    },
+    "-On3GYfl1Q5UjmLP91-e": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T17:51:02.546930+00:00"
+    },
+    "-On3GYhmEPZWk25A94q_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T17:51:02.912823+00:00"
+    },
+    "-On3GYjyt4im8gOib8cx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T17:51:03.041092+00:00"
+    },
+    "-On3P7Ml2FxYf-PSnNKD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T18:28:29.802290+00:00"
+    },
+    "-On3P7PNe0ZXx3FQicQk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T18:28:30.324575+00:00"
+    },
+    "-On3P7S0_usBw_VZ6lgQ": {
+      "confidence": 0.853915,
+      "congestion_index": 0.0851063829787234,
+      "current_speed": 43,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T18:28:30.491326+00:00"
+    },
+    "-On3YKefz7iJKlAC9j7K": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T19:08:43.504630+00:00"
+    },
+    "-On3YKiWc0mVcE6KqwTf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T19:08:44.091697+00:00"
+    },
+    "-On3YKljLdeYQgtraqV5": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T19:08:44.334861+00:00"
+    },
+    "-On3g-6Bo3ULeewpYgw4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T19:46:34.572047+00:00"
+    },
+    "-On3g-9upj-J-NYQzBhX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T19:46:35.116093+00:00"
+    },
+    "-On3g-Dc3pHkZS2PzmIO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T19:46:35.352996+00:00"
+    },
+    "-On3nVH2S7nAWS67hFsQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T20:19:21.381679+00:00"
+    },
+    "-On3nVJSWcV657K6KgFa": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T20:19:21.878657+00:00"
+    },
+    "-On3nVLf84YAVJGvsa78": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T20:19:22.029233+00:00"
+    },
+    "-On3v3wabi2hqNG_UJ5E": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T20:52:26.390156+00:00"
+    },
+    "-On3v4-QQrSHfmh9UVml": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T20:52:27.057557+00:00"
+    },
+    "-On3v439dr7NFDpDk2Wc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T20:52:27.301900+00:00"
+    },
+    "-On408N1Pipytm8G0XUr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T21:18:57.494865+00:00"
+    },
+    "-On408QkthJ1cqM2rOLM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T21:18:58.080850+00:00"
+    },
+    "-On408UflEmQorb4Tmq8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T21:18:58.318459+00:00"
+    },
+    "-On46yNaylimvY80Efe5": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T21:48:47.471855+00:00"
+    },
+    "-On46yS6mlcNxjOFMzvW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T21:48:48.064271+00:00"
+    },
+    "-On46yWlOslPc41ZdEkd": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T21:48:48.349297+00:00"
+    },
+    "-On4DHZbdNyhOyLXKLeY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T22:16:23.046829+00:00"
+    },
+    "-On4DHbHlbxmu-pyyiju": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T22:16:23.601321+00:00"
+    },
+    "-On4DHeE9Aq13i8NXE0U": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T22:16:23.772730+00:00"
+    },
+    "-On4LQD8jrvIdsg2DCHc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T22:51:55.636508+00:00"
+    },
+    "-On4LQHg-avPHYN4uGmt": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T22:51:56.198279+00:00"
+    },
+    "-On4LQMTdJisfg4Iaa8n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T22:51:56.488150+00:00"
+    },
+    "-On4REoka8P-p19rUV6b": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T23:17:21.863579+00:00"
+    },
+    "-On4RErxhOQHO5t1Pyz8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T23:17:22.362529+00:00"
+    },
+    "-On4REuZVQ_4zCK4Hed7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T23:17:22.566704+00:00"
+    },
+    "-On4Xy1tSQXDSbC-Zttl": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-06T23:46:44.011613+00:00"
+    },
+    "-On4Xy5mHd1kM1RpFvU6": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-06T23:46:44.568281+00:00"
+    },
+    "-On4Xy9f8aQ3JAjv--Kl": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-06T23:46:44.816626+00:00"
+    },
+    "-On4nfxoWoncl3t_jJlL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T00:59:46.412254+00:00"
+    },
+    "-On4ng-PChT2E0xopJhk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T00:59:46.944059+00:00"
+    },
+    "-On4ng2T3OrvBja89oq_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T00:59:47.107136+00:00"
+    },
+    "-On5Ho1Yl29vPZUiSrsv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T03:15:45.964101+00:00"
+    },
+    "-On5Ho4GHEhIRfc54dyf": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T03:15:46.482744+00:00"
+    },
+    "-On5Ho78aSV2gaWmaEYJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T03:15:46.654779+00:00"
+    },
+    "-On5b0jgVlKrVyvo9ilu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T04:44:05.058112+00:00"
+    },
+    "-On5b0lujGwNyccz9Etg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T04:44:05.505227+00:00"
+    },
+    "-On5b0o6OOIoInSzyVUw": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T04:44:05.649222+00:00"
+    },
+    "-On5kZ_vkBNv6QGajizh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T05:25:47.042441+00:00"
+    },
+    "-On5kZcV5gQQbtbikIAE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T05:25:47.525789+00:00"
+    },
+    "-On5kZfOx9fB4HtJIqYp": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T05:25:47.689246+00:00"
+    },
+    "-On5rdUD7t6B2AoYCEKI": {
+      "confidence": 0.993627,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T05:56:42.061270+00:00"
+    },
+    "-On5rdXmgqBMPY4MoX_O": {
+      "confidence": 0.993627,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T05:56:42.604989+00:00"
+    },
+    "-On5rdaHS54hOie3LQFc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T05:56:42.831496+00:00"
+    },
+    "-On5zFn-geDmad2fDFhK": {
+      "confidence": 0.989059,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T06:29:58.044425+00:00"
+    },
+    "-On5zFqD0tYgtB6f1WJn": {
+      "confidence": 0.989059,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T06:29:58.611651+00:00"
+    },
+    "-On5zFtKUQPdmeG1pqIY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T06:29:58.816655+00:00"
+    },
+    "-On669Z1Dew2pvR7j9hC": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T07:04:29.793415+00:00"
+    },
+    "-On669ab-VJrTZUwR66L": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T07:04:30.220139+00:00"
+    },
+    "-On669dFpBykaKPUd0XL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T07:04:30.384422+00:00"
+    },
+    "-On6EMB6UC8zo6CyLACs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T07:40:18.563541+00:00"
+    },
+    "-On6EMErPGK20Tywo9gT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T07:40:19.111570+00:00"
+    },
+    "-On6EMISxAt-Rs_jHObO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T07:40:19.352339+00:00"
+    },
+    "-On6HYraN9lIs67IDydB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T07:54:17.094455+00:00"
+    },
+    "-On6HYu4GWMwIPHDu-C2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T07:54:17.466638+00:00"
+    },
+    "-On6HYwJOneXeKlo7kE9": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T07:54:17.624581+00:00"
+    },
+    "-On6MgchcmY-Z249QF1q": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T08:16:43.544877+00:00"
+    },
+    "-On6MggO5LjEbRu48gDK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T08:16:44.107842+00:00"
+    },
+    "-On6MgjqUFrJhcxAG_-j": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T08:16:44.342921+00:00"
+    },
+    "-On6UatYgp2XXhIt3c8g": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T08:51:17.266446+00:00"
+    },
+    "-On6UawJJ9A5ITWKptwP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T08:51:17.742042+00:00"
+    },
+    "-On6UaysxJJ-Tr452M9Z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T08:51:17.919261+00:00"
+    },
+    "-On6_mii1_NH7piL1D4m": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T09:18:18.541529+00:00"
+    },
+    "-On6_mlZ36QayYQjIGmO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T09:18:19.063738+00:00"
+    },
+    "-On6_moVgsLU4T5lg8Fs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T09:18:19.244061+00:00"
+    },
+    "-On6gY22AVD-V3bH9Wh2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T09:47:49.342889+00:00"
+    },
+    "-On6gY4k4gzoLnEBCuSD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T09:47:49.836487+00:00"
+    },
+    "-On6gY7LfcY7qz01U8Ns": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T09:47:50.009350+00:00"
+    },
+    "-On6mEGQC6WO-Yj8hzsr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T10:12:41.279959+00:00"
+    },
+    "-On6mEIXbH97qTneizZo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T10:12:41.715421+00:00"
+    },
+    "-On6mEKg35d_xz4wJq3f": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T10:12:41.850172+00:00"
+    },
+    "-On6soUxTnl1lyy1_ZLN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T10:41:26.482129+00:00"
+    },
+    "-On6soZOGF4ApptNrhFa": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T10:41:27.062606+00:00"
+    },
+    "-On6socyCIhxdR2g5Zka": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T10:41:27.346140+00:00"
+    },
+    "-On6vqaFFA1NjbrvZj7J": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T10:54:41.634623+00:00"
+    },
+    "-On6vqdCXI--JqchoUir": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T10:54:42.073392+00:00"
+    },
+    "-On6vqfvNZrxwBvsyqAB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T10:54:42.261372+00:00"
+    },
+    "-On6zTX7-lH84pqYl1Mg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T11:10:31.628792+00:00"
+    },
+    "-On6zTZTFQ8sBV87Wzkw": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T11:10:32.095710+00:00"
+    },
+    "-On6zTbBVddObz-jQ6gi": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T11:10:32.243246+00:00"
+    },
+    "-On73LQ30iCmTjmeOh6d": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T11:31:49.246543+00:00"
+    },
+    "-On73LSHeDku_6Ajkp-x": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T11:31:49.591649+00:00"
+    },
+    "-On73LUbVYUrnm7kmvw9": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T11:31:49.733560+00:00"
+    },
+    "-On77iKedjmn3EXyDg_2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T11:50:55.803951+00:00"
+    },
+    "-On77iMbTpq1qvIPOhiy": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T11:50:56.123840+00:00"
+    },
+    "-On77iORGVoeYjkj3PeN": {
+      "confidence": 0.980801,
+      "congestion_index": 0.1702127659574468,
+      "current_speed": 39,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T11:50:56.247526+00:00"
+    },
+    "-On7Es3GpbxSt89Cw8FJ": {
+      "confidence": 0.982907,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T12:22:10.462548+00:00"
+    },
+    "-On7Es5uYLD94Xs8eQk5": {
+      "confidence": 0.982907,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T12:22:10.973691+00:00"
+    },
+    "-On7Es8SRXatjSazyn1m": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T12:22:11.140000+00:00"
+    },
+    "-On7QCF-5WUVmov4Pycr": {
+      "confidence": 0.976906,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T13:11:40.765662+00:00"
+    },
+    "-On7QCJJz2b7pfdwQpO_": {
+      "confidence": 0.976906,
+      "congestion_index": 0.14583333333333334,
+      "current_speed": 41,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T13:11:41.339119+00:00"
+    },
+    "-On7QCNbV7rkHDgBa3TE": {
+      "confidence": 0.973643,
+      "congestion_index": 0.1276595744680851,
+      "current_speed": 41,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T13:11:41.611789+00:00"
+    },
+    "-On7YZ3U5gzboLwbVn0v": {
+      "confidence": 0.966782,
+      "congestion_index": 0.16666666666666666,
+      "current_speed": 40,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T13:48:11.422065+00:00"
+    },
+    "-On7YZ6EyCIJ2FnMQCOu": {
+      "confidence": 0.966782,
+      "congestion_index": 0.16666666666666666,
+      "current_speed": 40,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T13:48:11.945132+00:00"
+    },
+    "-On7YZ8jkE6btpcfYtHB": {
+      "confidence": 0.982892,
+      "congestion_index": 0.19148936170212766,
+      "current_speed": 38,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T13:48:12.120254+00:00"
+    },
+    "-On7dTtnSxsPw8VoeInS": {
+      "confidence": 0.976496,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T14:14:03.088496+00:00"
+    },
+    "-On7dTyCCcALaHWJ_d_y": {
+      "confidence": 0.976496,
+      "congestion_index": 0.125,
+      "current_speed": 42,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T14:14:03.643636+00:00"
+    },
+    "-On7dU07jOn3G96AF9yi": {
+      "confidence": 0.921193,
+      "congestion_index": 0.1702127659574468,
+      "current_speed": 39,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T14:14:03.924910+00:00"
+    },
+    "-On7jqGYFH4mXeuj9ffm": {
+      "confidence": 0.98329,
+      "congestion_index": 0.24489795918367346,
+      "current_speed": 37,
+      "free_flow_speed": 49,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T14:41:51.844077+00:00"
+    },
+    "-On7jqIj--k12GWjEA5X": {
+      "confidence": 0.98329,
+      "congestion_index": 0.24489795918367346,
+      "current_speed": 37,
+      "free_flow_speed": 49,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T14:41:52.245719+00:00"
+    },
+    "-On7jqL5jS31fPoENEvZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T14:41:52.385174+00:00"
+    },
+    "-On7n5nFQA8PK81mA_o-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T14:56:05.947741+00:00"
+    },
+    "-On7n5p8wf6ogQiKGs-S": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T14:56:06.368949+00:00"
+    },
+    "-On7n5rFAgAlfCrby80f": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T14:56:06.490647+00:00"
+    },
+    "-On7rJy-2EMEBiHzh2e7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T15:14:32.431718+00:00"
+    },
+    "-On7rK0a0EXBo3Nm7vWb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T15:14:32.992419+00:00"
+    },
+    "-On7rK47e4T4IVxmHki2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T15:14:33.220704+00:00"
+    },
+    "-On7wJz8TZG1VDeNGbrR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T15:36:23.309633+00:00"
+    },
+    "-On7wK028g1nMyVfhPoE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T15:36:23.770592+00:00"
+    },
+    "-On7wK21F0keqnlM3sri": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T15:36:23.891451+00:00"
+    },
+    "-On8-0YTYo1S6zBLiXAP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T15:52:32.169739+00:00"
+    },
+    "-On8-0aKtAxFRihNom3Y": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T15:52:32.743967+00:00"
+    },
+    "-On8-0cuzzHzOXkjWh8y": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T15:52:32.925907+00:00"
+    },
+    "-On8459VQRCULWeLp5xw": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T16:14:41.891026+00:00"
+    },
+    "-On845CzdlhuYySToJz0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T16:14:42.346309+00:00"
+    },
+    "-On845Fakj31NGpLT_SR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T16:14:42.569768+00:00"
+    },
+    "-On8Aq-jwgBaXWHf-opl": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T16:44:10.666051+00:00"
+    },
+    "-On8Aq3ilBQ8sYJjQPyI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T16:44:11.214593+00:00"
+    },
+    "-On8Aq7TUNIqpChcVjPU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T16:44:11.469782+00:00"
+    },
+    "-On8E62WZMLoV1zWDeyA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T16:58:26.871240+00:00"
+    },
+    "-On8E67C-OUAGwoExozj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T16:58:27.449240+00:00"
+    },
+    "-On8E6B_pP4d5zdtD4eQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T16:58:27.748621+00:00"
+    },
+    "-On8IkVTqiGx9MZLKKD4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T17:18:45.333616+00:00"
+    },
+    "-On8IkYXqDiv1a7wUctj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T17:18:45.801384+00:00"
+    },
+    "-On8IkaARK3fDfgzajQB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T17:18:45.995033+00:00"
+    },
+    "-On8OED5OGE6auMCgtd8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T17:42:41.889233+00:00"
+    },
+    "-On8OEFAxUJoJJug1HG8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T17:42:42.328025+00:00"
+    },
+    "-On8OEI1FY1P2-WFS0mF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T17:42:42.460439+00:00"
+    },
+    "-On8QyXUUUxrwGoxAu5Y": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T17:54:39.894197+00:00"
+    },
+    "-On8QyaXC5eKoQG4UGHV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T17:54:40.445353+00:00"
+    },
+    "-On8QyeYJD9B_lmOhUqN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T17:54:40.704002+00:00"
+    },
+    "-On8WATdSeaPkzu8QDfW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T18:17:23.639498+00:00"
+    },
+    "-On8WAWYhpiVCcWEWakU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T18:17:24.149777+00:00"
+    },
+    "-On8WAZHdSBL-ry05DI_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T18:17:24.336169+00:00"
+    },
+    "-On8dQIPRhYPxz_WlK_O": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T18:53:25.549553+00:00"
+    },
+    "-On8dQLb9XDEQMmYJGYe": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T18:53:26.125520+00:00"
+    },
+    "-On8dQOq5f4jT57Codq7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T18:53:26.329626+00:00"
+    },
+    "-On8hzHjEQ5d3CgOP-k_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T19:13:21.583867+00:00"
+    },
+    "-On8hzM53unlIBrkFHZ4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T19:13:22.126678+00:00"
+    },
+    "-On8hzPmsXJDgAa39Dso": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T19:13:22.404450+00:00"
+    },
+    "-On8mT-Dc5X5PCNsWPe2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T19:32:55.954392+00:00"
+    },
+    "-On8mT33plikBWjJ9gjo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T19:32:56.494102+00:00"
+    },
+    "-On8mT6uafdHZhQ1t7gW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T19:32:56.739452+00:00"
+    },
+    "-On8qTRsK7WWdgKNJfIh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T19:50:26.440512+00:00"
+    },
+    "-On8qTUQHcgjh7nkbz6I": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T19:50:26.881856+00:00"
+    },
+    "-On8qTXGc0qoFVh6qzs8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T19:50:27.045250+00:00"
+    },
+    "-On8vcK-qCviVbWgZgyj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T20:12:57.506213+00:00"
+    },
+    "-On8vcOsKmosSHD7Z0Pn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T20:12:58.076369+00:00"
+    },
+    "-On8vcTHlgb57wMVLbSa": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T20:12:58.386918+00:00"
+    },
+    "-On90V7uIOcIEIhda5PR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T20:38:37.024227+00:00"
+    },
+    "-On90VAOpLHfA9Wny1hH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T20:38:37.387506+00:00"
+    },
+    "-On90VCvSmK0yW0e_STu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T20:38:37.546092+00:00"
+    },
+    "-On94BXwCJgb1sco1ecY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T20:54:45.180670+00:00"
+    },
+    "-On94BajLdMJmXe2_cNV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T20:54:45.724260+00:00"
+    },
+    "-On94BePuIRoGM9M1Wtb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T20:54:45.966605+00:00"
+    },
+    "-On97ut-GnHpdaOWRVoO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T21:11:01.499189+00:00"
+    },
+    "-On97uxCFAdlhJfAButg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T21:11:01.981129+00:00"
+    },
+    "-On97v0JLFVA6z1pxFDg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T21:11:02.250824+00:00"
+    },
+    "-On9CzzvtK5N5enZ8_UO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T21:33:13.061909+00:00"
+    },
+    "-On9D-3c12D-kYxdyDTE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T21:33:13.618334+00:00"
+    },
+    "-On9D-898rszo2js3RG5": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T21:33:13.918712+00:00"
+    },
+    "-On9H9XUicAmuU1wyd6-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T21:51:24.865309+00:00"
+    },
+    "-On9H9_4-q1LOBrCpX31": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T21:51:25.355265+00:00"
+    },
+    "-On9H9be3ypo91VPtpzF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T21:51:25.519184+00:00"
+    },
+    "-On9LogwH6TB2eIYTDDM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T22:11:46.343499+00:00"
+    },
+    "-On9Loj2UVXLL5COexEc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T22:11:46.635663+00:00"
+    },
+    "-On9Lol2e68F7Ac5d8n1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T22:11:46.773575+00:00"
+    },
+    "-On9RuHVF8si5QdCe97n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T22:38:21.802581+00:00"
+    },
+    "-On9RuLN4oMj6WaYDON2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T22:38:22.383429+00:00"
+    },
+    "-On9RuPQ3RKofjlWgiex": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T22:38:22.631990+00:00"
+    },
+    "-On9VeH1sC5whieI92Ag": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T22:54:44.863957+00:00"
+    },
+    "-On9VeJn0bPuSP7bFjrb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T22:54:45.387829+00:00"
+    },
+    "-On9VeMLyFPGQC0C54gK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T22:54:45.564652+00:00"
+    },
+    "-On9Zea7TePFJ1tli_Yn": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T23:12:14.854325+00:00"
+    },
+    "-On9ZecTLNkxg0wn6V6t": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T23:12:15.257494+00:00"
+    },
+    "-On9ZeebfJNPkCVGHHrh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T23:12:15.406369+00:00"
+    },
+    "-On9dqX6rXyuaza7jz7i": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T23:34:54.388334+00:00"
+    },
+    "-On9dq_VrGw3rgb6VcaX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T23:34:54.875210+00:00"
+    },
+    "-On9dqcvxPDOoJCFpU7Q": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T23:34:55.091415+00:00"
+    },
+    "-On9i2eGZ2ygkSM_uCB2": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-07T23:53:16.821115+00:00"
+    },
+    "-On9i2gCDM_8Pz_bicVy": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-07T23:53:17.218829+00:00"
+    },
+    "-On9i2iH4Zx4GtEyBQV9": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-07T23:53:17.342052+00:00"
+    },
+    "-On9yKUfbR-pVoArL7H1": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T01:04:24.061068+00:00"
+    },
+    "-On9yKZ798ZbjCKpcUrK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T01:04:24.590358+00:00"
+    },
+    "-On9yKbpMTS8XNl_J2Hv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T01:04:24.870105+00:00"
+    },
+    "-OnAWO3X3nnoeSUoe6cM": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T03:37:33.684797+00:00"
+    },
+    "-OnAWO7DxBJxOIudYZGC": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T03:37:34.262960+00:00"
+    },
+    "-OnAWOAVYJPIM4Yy3UQ7": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T03:37:34.496472+00:00"
+    },
+    "-OnAoWwIv_dYq8yYpAG-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T05:01:10.774757+00:00"
+    },
+    "-OnAoX0GeQKS2qEoyUDp": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T05:01:11.341193+00:00"
+    },
+    "-OnAoX4Tm_d2taoOS_ff": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T05:01:11.655645+00:00"
+    },
+    "-OnB06_BnJ3BrPSuPIfu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T05:56:10.775775+00:00"
+    },
+    "-OnB06c-9O8QYZilH46L": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T05:56:11.222790+00:00"
+    },
+    "-OnB06fGZvnvsS7uicy3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T05:56:11.401039+00:00"
+    },
+    "-OnB8IOxIAFJ69CIeuOJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T06:31:56.223726+00:00"
+    },
+    "-OnB8ITIk0oprDR-bDwu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T06:31:56.819072+00:00"
+    },
+    "-OnB8IXc3fGfXTm7_1hv": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T06:31:57.096303+00:00"
+    },
+    "-OnBJB_5lDhWe5LlY31Z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T07:19:31.989747+00:00"
+    },
+    "-OnBJBbP9jdEe3Y63UHs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T07:19:32.453933+00:00"
+    },
+    "-OnBJBeJatLZ0j0aLLy9": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T07:19:32.601149+00:00"
+    },
+    "-OnBPc7QX4cDtRj906rx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T07:47:37.591834+00:00"
+    },
+    "-OnBPcBrZtWI41oq2Y7L": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T07:47:38.162991+00:00"
+    },
+    "-OnBPcGLo7wIwV6Z05t4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T07:47:38.449399+00:00"
+    },
+    "-OnBWUAATi95szCUZS5n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T08:17:36.089765+00:00"
+    },
+    "-OnBWUCSZs4e7QAyF_p_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T08:17:36.478931+00:00"
+    },
+    "-OnBWUEbMtFrxZhx7s8z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T08:17:36.623820+00:00"
+    },
+    "-OnBdMOZ56cQocvzPKLc": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T08:52:01.350408+00:00"
+    },
+    "-OnBdMQrgiwrBcJOrB6D": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T08:52:01.782354+00:00"
+    },
+    "-OnBdMTNYg5TzzmAoyH5": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T08:52:01.928996+00:00"
+    },
+    "-OnBjL4Z7M07MxPq0xn3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T09:18:08.713922+00:00"
+    },
+    "-OnBjL7IUDefhHnsPxYW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T09:18:09.263766+00:00"
+    },
+    "-OnBjL9wcn_Uaox1uF6_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T09:18:09.437431+00:00"
+    },
+    "-OnBqVz0SOyhefDDnMVx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T09:49:28.395676+00:00"
+    },
+    "-OnBqW1cd2T46wH46kXY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T09:49:28.928969+00:00"
+    },
+    "-OnBqW5GW-SxxKssXZNG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T09:49:29.159029+00:00"
+    },
+    "-OnBw90VMMXeZY2iBDSR": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T10:14:07.222191+00:00"
+    },
+    "-OnBw93K8q4lCENUyFTW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T10:14:07.725557+00:00"
+    },
+    "-OnBw96AMUD3tZ1uTY6Z": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T10:14:07.905480+00:00"
+    },
+    "-OnC20ZU1K38Tx4kfJP0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T10:44:07.552416+00:00"
+    },
+    "-OnC20bKtnQHRaaVMOnV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T10:44:08.104259+00:00"
+    },
+    "-OnC20dplZHqbBz5puUP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T10:44:08.285163+00:00"
+    },
+    "-OnC5B-UlhNwCAiwE1w6": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T10:57:56.725770+00:00"
+    },
+    "-OnC5B36f7kUFEUmZgxj": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T10:57:57.309793+00:00"
+    },
+    "-OnC5B6vg7EqX0KXThZ6": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T10:57:57.540623+00:00"
+    },
+    "-OnC9m3Zjnr67v8ljvLY": {
+      "confidence": 0.956864,
+      "congestion_index": 0.14285714285714285,
+      "current_speed": 42,
+      "free_flow_speed": 49,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T11:18:01.121847+00:00"
+    },
+    "-OnC9m8ChrvIfLqygKV7": {
+      "confidence": 0.956864,
+      "congestion_index": 0.14285714285714285,
+      "current_speed": 42,
+      "free_flow_speed": 49,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T11:18:01.787241+00:00"
+    },
+    "-OnC9mCdOQpNqL5FG6sA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T11:18:02.085141+00:00"
+    },
+    "-OnCEwHB9LQepMhJx2JQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T11:40:33.776785+00:00"
+    },
+    "-OnCEwKzUnMk4i7xCaL3": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T11:40:34.346976+00:00"
+    },
+    "-OnCEwOhCzAn31elvNUB": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T11:40:34.588768+00:00"
+    },
+    "-OnCHY3qsZ2PrBKmcZzT": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T11:51:57.086181+00:00"
+    },
+    "-OnCHY6lqxFwHEFa78jk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T11:51:57.504356+00:00"
+    },
+    "-OnCHY9TkLn97huskseP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T11:51:57.691507+00:00"
+    },
+    "-OnCOc_jxn823r9Lscbn": {
+      "confidence": 0.959694,
+      "congestion_index": 0.10416666666666667,
+      "current_speed": 43,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T12:22:54.661876+00:00"
+    },
+    "-OnCOccRKdDccPbCmX8X": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T12:22:55.096698+00:00"
+    },
+    "-OnCOcf36Yy_ZBRAZ-BN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T12:22:55.269434+00:00"
+    },
+    "-OnC_7niUSb9jkH54IDN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T13:13:10.183246+00:00"
+    },
+    "-OnC_7qhL8nlJwgOFzlP": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T13:13:10.649674+00:00"
+    },
+    "-OnC_7tOG8N6f7PkwbnN": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T13:13:10.838288+00:00"
+    },
+    "-OnChWNCwoEHwuKMHbp1": {
+      "confidence": 0.968311,
+      "congestion_index": 0.1276595744680851,
+      "current_speed": 41,
+      "free_flow_speed": 47,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T13:49:47.944567+00:00"
+    },
+    "-OnChWQ68-uqravU2AL4": {
+      "confidence": 0.968311,
+      "congestion_index": 0.1276595744680851,
+      "current_speed": 41,
+      "free_flow_speed": 47,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T13:49:48.439683+00:00"
+    },
+    "-OnChWSj8-4YB3nDL7ft": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T13:49:48.624346+00:00"
+    },
+    "-OnCnK9GShFl5E-TGC8m": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T14:15:10.773624+00:00"
+    },
+    "-OnCnKC6IHNXh2_1Ev3w": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T14:15:11.258682+00:00"
+    },
+    "-OnCnKErMY0_74JMkaFz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T14:15:11.439808+00:00"
+    },
+    "-OnCtlHRjUL4chvrzgsZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T14:43:18.765809+00:00"
+    },
+    "-OnCtlLw9blfzRFq0hGu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T14:43:19.348081+00:00"
+    },
+    "-OnCtlQiF86CpCTbBTeg": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T14:43:19.636657+00:00"
+    },
+    "-OnCwzXhn6v4WUPv2V4c": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T14:57:23.466979+00:00"
+    },
+    "-OnCwzaClzYiQekf_oGI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T14:57:24.160317+00:00"
+    },
+    "-OnCwzdXH7WqVXw-YsYG": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T14:57:24.382913+00:00"
+    },
+    "-OnD0khoiq77wLmvHVgl": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T15:18:13.620168+00:00"
+    },
+    "-OnD0kkCvQAoLjAAJtGJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T15:18:14.151587+00:00"
+    },
+    "-OnD0kmTFDR4EQXNSaOs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T15:18:14.303321+00:00"
+    },
+    "-OnD6P5vx3-uMrl1yVr4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T15:42:53.867886+00:00"
+    },
+    "-OnD6P8pOILoIxRmTZuo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T15:42:54.406578+00:00"
+    },
+    "-OnD6PBVlw_cuTijGDwh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T15:42:54.591648+00:00"
+    },
+    "-OnD9CBfDNppcJqYAsMX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T15:55:07.615638+00:00"
+    },
+    "-OnD9CEPQFQTWyCHUMIQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T15:55:07.965385+00:00"
+    },
+    "-OnD9CH-Ug6wN7EDsixo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T15:55:08.140455+00:00"
+    },
+    "-OnDDh8YglvJ6kjsnWjs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T16:14:46.807020+00:00"
+    },
+    "-OnDDhD77u9FLgP4KG7r": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T16:14:47.418235+00:00"
+    },
+    "-OnDDhI9Wk3VNaL6rixY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T16:14:47.710415+00:00"
+    },
+    "-OnDKoi5c4psWRs0ytbz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T16:45:52.948084+00:00"
+    },
+    "-OnDKokv4u4r7AhJa74h": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T16:45:53.423606+00:00"
+    },
+    "-OnDKoo-ajbvhuRHoYNr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T16:45:53.604003+00:00"
+    },
+    "-OnDRKGUOnhK9rWDM8VO": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T17:14:19.157438+00:00"
+    },
+    "-OnDRKIvJtWZPUq4YhfH": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T17:14:19.633639+00:00"
+    },
+    "-OnDRKL7RI7V1ES5dlex": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T17:14:19.788600+00:00"
+    },
+    "-OnDWvM1qZKU3WAPrysW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T17:38:45.799667+00:00"
+    },
+    "-OnDWvPGPgqUcXqRjD4u": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T17:38:46.356801+00:00"
+    },
+    "-OnDWvSd3ghdET5-_KHW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T17:38:46.562517+00:00"
+    },
+    "-OnD_caXfhdAL4zBSEcX": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T17:54:57.514185+00:00"
+    },
+    "-OnD_cdKXKKEJbSf3-lZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T17:54:58.092861+00:00"
+    },
+    "-OnD_cgFxDSDob71v_Wd": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T17:54:58.270893+00:00"
+    },
+    "-OnDeucuzI1EWk991BR6": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T18:18:02.111543+00:00"
+    },
+    "-OnDeuhKa2iWzX2XHLSr": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T18:18:02.702266+00:00"
+    },
+    "-OnDeulFWOe5ZpZhO5TF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T18:18:02.984103+00:00"
+    },
+    "-OnDnMzRJFAak5w8mTqF": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T18:54:59.518084+00:00"
+    },
+    "-OnDnN19iDrHy5fmUwCU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T18:55:00.064263+00:00"
+    },
+    "-OnDnN3pEHaYNeTS-28H": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T18:55:00.237664+00:00"
+    },
+    "-OnDs6PDmHrUhYI7DYuo": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T19:15:42.381272+00:00"
+    },
+    "-OnDs6Szh6t1XCb_zgo-": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T19:15:42.892071+00:00"
+    },
+    "-OnDs6WbEXKvsNELPBd8": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T19:15:43.131634+00:00"
+    },
+    "-OnDy5Z0MpT5-39mQ0wV": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T19:41:51.853940+00:00"
+    },
+    "-OnDy5avRdIE3giMvH--": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T19:41:52.269313+00:00"
+    },
+    "-OnDy5dbfbeShTgy_Dfu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T19:41:52.452730+00:00"
+    },
+    "-OnE-cEE5mbqJ6nAOvSY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T19:52:54.008504+00:00"
+    },
+    "-OnE-cGtQV0u3UdUZjeb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T19:52:54.489767+00:00"
+    },
+    "-OnE-cJad-8VIh7AK4Fh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T19:52:54.658761+00:00"
+    },
+    "-OnE4Ii9F-Alw8xAIG3Y": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T20:13:20.557758+00:00"
+    },
+    "-OnE4Imm2FAVgFQZ_VqZ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T20:13:21.186409+00:00"
+    },
+    "-OnE4IrOSAU3RjOryL7Q": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T20:13:21.480755+00:00"
+    },
+    "-OnEAsEyWtizTB8ZX3Sx": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T20:42:02.810773+00:00"
+    },
+    "-OnEAsICXv-RFa4p1vht": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T20:42:03.665747+00:00"
+    },
+    "-OnEAsLic6zbpwuXScpQ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T20:42:03.871170+00:00"
+    },
+    "-OnEEEUdkpoIW-tj-o3i": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T20:56:44.816105+00:00"
+    },
+    "-OnEEEWti4h3SxsBFYuk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T20:56:45.306680+00:00"
+    },
+    "-OnEEEZF-5ynKHAKixer": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T20:56:45.449521+00:00"
+    },
+    "-OnEIleA7bKlUNoPvLQI": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T21:16:33.293429+00:00"
+    },
+    "-OnEIli1MZ7nYECX3xTt": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T21:16:33.817888+00:00"
+    },
+    "-OnEIllTuOr0jXH45HxW": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T21:16:34.065368+00:00"
+    },
+    "-OnEOg0i5lxRBHHL7rxY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T21:42:23.062252+00:00"
+    },
+    "-OnEOg49-lfBbwYrR7qk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T21:42:23.616487+00:00"
+    },
+    "-OnEOg7a4QUVXxN75NX4": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T21:42:23.836247+00:00"
+    },
+    "-OnERKOtA5TUCmQ9bJ4V": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T21:53:56.818025+00:00"
+    },
+    "-OnERKSToS3wSksjHvUU": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T21:53:57.391196+00:00"
+    },
+    "-OnERKVumTABdO3vL0HL": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T21:53:57.616127+00:00"
+    },
+    "-OnEVVD7yedXrA-NZIC_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T22:12:09.831287+00:00"
+    },
+    "-OnEVVFb9wcWA12OgjAh": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T22:12:10.271777+00:00"
+    },
+    "-OnEVVILS4bWOXzsidpK": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T22:12:10.427308+00:00"
+    },
+    "-OnEauZwbRTFvLwYPahJ": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T22:40:10.541598+00:00"
+    },
+    "-OnEaucatWtErZk17wGs": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T22:40:11.100159+00:00"
+    },
+    "-OnEaugGU0G4vw_1i7PY": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T22:40:11.332227+00:00"
+    },
+    "-OnEeZuQY_y-2mx5uWrD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T22:56:10.389068+00:00"
+    },
+    "-OnEeZxxm3FvEl8m8JT_": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T22:56:10.919029+00:00"
+    },
+    "-OnEe_09ulgcMfHKZ4Qu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T22:56:11.145321+00:00"
+    },
+    "-OnEivtOsK6EtcQPwrhq": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T23:15:13.106302+00:00"
+    },
+    "-OnEivxFfaOglPQWeGpb": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T23:15:13.657113+00:00"
+    },
+    "-OnEiw-tznAfbKBhcqzA": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T23:15:13.902901+00:00"
+    },
+    "-OnEpEOBqtdZdhgJXS4n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T23:42:46.032525+00:00"
+    },
+    "-OnEpEQGN8uSJynsT0Op": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T23:42:46.366953+00:00"
+    },
+    "-OnEpESJoEmF5fy5VmKE": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T23:42:46.499360+00:00"
+    },
+    "-OnEsJQj9OvR5azQ2Vvz": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-08T23:56:12.937282+00:00"
+    },
+    "-OnEsJU6aPVyLrAtcOeD": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-08T23:56:13.442773+00:00"
+    },
+    "-OnEsJXkyB5Fb0QbYdUu": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-08T23:56:13.658155+00:00"
+    },
+    "-OnF9Rq0dGbKXyXhKp3f": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-09T01:15:21.527500+00:00"
+    },
+    "-OnF9RsJYSmFJ_f5PEct": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-09T01:15:26.484150+00:00"
+    },
+    "-OnF9Ruk_Q-cpahODvWk": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-09T01:15:26.634155+00:00"
+    },
+    "-OnFgTbD1Wc0gaP9666n": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "Central Junction",
+      "timestamp": "2026-03-09T03:44:06.108855+00:00"
+    },
+    "-OnFgTfl42dac1C1a2b0": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 48,
+      "free_flow_speed": 48,
+      "location": "MC Road Segment",
+      "timestamp": "2026-03-09T03:44:06.631924+00:00"
+    },
+    "-OnFgTkGMMpf8BN7266I": {
+      "confidence": 1,
+      "congestion_index": 0,
+      "current_speed": 47,
+      "free_flow_speed": 47,
+      "location": "Market Area",
+      "timestamp": "2026-03-09T03:44:06.921475+00:00"
+    }
+  }
+}
