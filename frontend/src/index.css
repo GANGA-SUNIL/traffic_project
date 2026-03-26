@@ -172,12 +172,17 @@ body {
   background: url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=2000&auto=format&fit=crop') center/cover;
 }
 
+/* Disable old pseudo overlay; using explicit .overlay element instead */
 .map-container::after {
-  content: '';
+  display: none;
+}
+
+.overlay {
   position: absolute;
   inset: 0;
-  background: var(--bg-color);
-  opacity: 0.8;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(2px);
+  z-index: 5;
 }
 
 .map-content {

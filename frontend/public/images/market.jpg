@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#0f172a" />
+  <g fill="#f59e0b" font-family="Outfit, Arial, sans-serif">
+    <text x="50%" y="50%" font-size="44" text-anchor="middle">Market Area</text>
+    <text x="50%" y="58%" font-size="18" text-anchor="middle">(Placeholder image)</text>
+  </g>
+</svg>

@@ -37,6 +37,17 @@ const INSIGHTS = [
 ];
 
 function App() {
+  const nodeImages = {
+    "Central Junction": "/images/central.jpg",
+    "Market Area": "/images/market.jpg",
+    "MC Road Segment": "/images/mcroad.jpg",
+  };
+  // explicit key mapping to ensure UI keys align with backend payload keys
+  const keyMap = {
+    "Central Junction": "Central Junction",
+    "MC Road Segment": "MC Road Segment",
+    "Market Area": "Market Area"
+  };
   const [data, setData] = useState(DATASET_HOURLY_MEANS.slice(0, 10)); // Start with first 10 hours
   const [activeNode, setActiveNode] = useState('Central Junction');
   const [isSimulatorOpen, setIsSimulatorOpen] = useState(false);
@@ -44,14 +55,17 @@ function App() {
   const [simScenario, setSimScenario] = useState('Divert Traffic (Accident Simulation)');
   const [simNode, setSimNode] = useState('Central Junction');
   const [lstmPrediction, setLstmPrediction] = useState("...");
+  // prediction shape: { value: number|"...", prev: number|null, label?: string, current?: number }
+  const [predictions, setPredictions] = useState({});
+  const [time, setTime] = useState(new Date());
+  const [peakHour, setPeakHour] = useState('18:00');
 
   // Playback the dataset accurately over time
   useEffect(() => {
     let currentHourIndex = 10;
 
     // Initial fetch
-    queryLstmApi(DATASET_HOURLY_MEANS[9]);
-
+    // Query LSTM for the three main nodes deterministically (no randomness)
     const interval = setInterval(() => {
       setData(prev => {
         const newData = [...prev.slice(1)];
@@ -63,8 +77,7 @@ function App() {
         const nextNodeData = DATASET_HOURLY_MEANS[currentHourIndex];
         newData.push(nextNodeData);
 
-        // Pass data to Python AI API
-        queryLstmApi(nextNodeData);
+        // dataset playback only; predictions come from backend polling
 
         currentHourIndex++;
         return newData;
@@ -73,50 +86,186 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  const queryLstmApi = async (metrics) => {
+  // Fetch predictions from backend predictions endpoint and update state
+  const fetchPredictions = async () => {
     try {
-      // Connect to the actual Python LSTM logic we built!
-      const res = await fetch(`http://127.0.0.1:8000/predict?current_speed=${metrics.speed}&free_flow_speed=${48}&congestion=${metrics.congestion}`);
+      const res = await fetch('http://127.0.0.1:8000/predictions');
+      const api = await res.json();
+      if (api && api.status === 'success' && api.predictions) {
+        // Store raw API shape so UI can bind with optional chaining
+        const next = {};
+        Object.keys(api.predictions).forEach(loc => {
+          const p = api.predictions[loc];
+          next[loc] = {
+            label: p && p.label ? p.label : undefined,
+            predicted: (p && typeof p.predicted === 'number') ? p.predicted : undefined,
+            current: (p && typeof p.current === 'number') ? p.current : undefined,
+            forecast: Array.isArray(p && p.forecast) ? p.forecast : []
+          };
+        });
+        setPredictions(next);
+      }
+    } catch (e) {
+      console.error('Error fetching predictions:', e);
+    }
+  };
+
+  useEffect(() => {
+    // initial fetch and polling every 10s
+    fetchPredictions();
+    const id = setInterval(fetchPredictions, 10000);
+    return () => clearInterval(id);
+  }, []);
+
+  // Debug: log predictions whenever they update
+  useEffect(() => {
+    console.log('Predictions keys:', Object.keys(predictions));
+    console.log('Predictions:', predictions);
+  }, [predictions]);
+
+  const getForecastForLocation = (location) => {
+    const locationKey = keyMap[location] || location;
+    const fc = predictions[locationKey]?.forecast || [];
+    console.log('ACTIVE NODE:', location, 'USING KEY:', locationKey, 'FORECAST:', fc);
+    return fc;
+  };
+
+  // Live clock
+  useEffect(() => {
+    const id = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  
+  // (removed single unnamed query function) - use node-specific `queryLstmApi` below
+
+  // Improved: call LSTM API for a named node; allow deterministic congestion adjustments
+  const queryLstmApi = async (metrics, node = 'Central Junction', congestionMultiplier = 1.0) => {
+    try {
+      const adjustedCong = metrics.congestion * congestionMultiplier;
+      const res = await fetch(`http://127.0.0.1:8000/predict?current_speed=${metrics.speed}&free_flow_speed=${48}&congestion=${adjustedCong}`);
       const apiData = await res.json();
       if (apiData.status === 'success') {
-        // Add some randomness to visualize it predicting future fluctuation
-        const predictionValue = (apiData.lstm_predicted_congestion_index * 100).toFixed(0);
-        setLstmPrediction(predictionValue);
+        const value = Math.round(apiData.lstm_predicted_congestion_index * 100);
+        setPredictions(prev => ({ ...prev, [node]: { value, prev: prev[node] ? prev[node].value : null } }));
+      } else {
+        setPredictions(prev => ({ ...prev, [node]: { value: null, prev: prev[node] ? prev[node].value : null } }));
       }
     } catch (e) {
       console.error('LSTM API Error:', e);
-      setLstmPrediction('Err');
+      setPredictions(prev => ({ ...prev, [node]: { value: null, prev: prev[node] ? prev[node].value : null } }));
     }
+  };
+
+  const getPredictionValue = (node) => {
+    const locationKey = keyMap[node] || node;
+    const p = predictions[locationKey];
+    if (!p) return '...';
+    const fc = p.forecast || [];
+    const next = fc[0]?.value;
+    const useVal = (next !== undefined && next !== null) ? next : (typeof p.predicted === 'number' ? p.predicted : undefined);
+    if (useVal === undefined) return '...';
+    return Number((useVal * 100).toFixed(1));
+  };
+
+  const getPredictionTrend = (node) => {
+    // We don't persist previous predictions in this UI; return stable as default
+    return 'Stable';
+  };
+
+  const getNodeLabel = (loc) => {
+    const locationKey = keyMap[loc] || loc;
+    const p = predictions[locationKey];
+    if (!p) return 'Prediction unavailable';
+    const fc = p.forecast || [];
+    const next = fc[0]?.value;
+    if (next !== undefined && next !== null) return getLabelFromValue(next);
+    if (p.label) return p.label;
+    if (typeof p.predicted === 'number') return getLabelFromValue(p.predicted);
+    return 'Prediction unavailable';
+  };
+
+  const getStatusClass = (label) => {
+    if (label === 'Flowing') return 'node-status status-good';
+    if (label === 'Moderate') return 'node-status status-moderate';
+    if (label === 'Heavy') return 'node-status status-heavy';
+    return 'node-status';
   };
 
   const currentStats = {
     speed: data[data.length - 1].speed.toFixed(1),
     congestion: (data[data.length - 1].congestion * 100).toFixed(0),
-    prediction: lstmPrediction,
+    prediction: getPredictionValue(activeNode),
     aqi: Math.min((data[data.length - 1].congestion * 150) + 40, 200).toFixed(0) // Simulate AQI based on congestion
+  };
+
+  // Detect peak hour from dataset (highest congestion). Simple, explainable rule.
+  useEffect(() => {
+    try {
+      let maxIdx = 0;
+      let maxVal = -1;
+      DATASET_HOURLY_MEANS.forEach((r, i) => {
+        if (r.congestion > maxVal) { maxVal = r.congestion; maxIdx = i; }
+      });
+      setPeakHour(DATASET_HOURLY_MEANS[maxIdx].time);
+    } catch (e) { /* ignore */ }
+  }, []);
+
+  // Build chartData from forecast for active node; fallback to historical playback `data`
+  const chartData = (() => {
+    const forecast = getForecastForLocation(activeNode);
+    if (forecast && forecast.length > 0) {
+      return forecast.map(item => ({ time: item.time, value: item.value * 100 }));
+    }
+    // fallback: map historical dataset to value (use congestion) — scale to percent for visualization
+    return data.map(d => ({ time: d.time, value: d.congestion * 100 }));
+  })();
+
+  const getLabelFromValue = (val) => {
+    if (val === undefined || val === null) return 'Prediction unavailable';
+    const pct = Math.round(val * 100);
+    if (pct <= 3) return 'Flowing';
+    if (pct <= 7) return 'Moderate';
+    return 'Heavy';
   };
 
   const runSimulation = () => {
     setSimulationResult({ status: 'calculating...' });
 
     setTimeout(() => {
-      let outcome = { status: 'success' };
+      // Data-driven simple simulation based on current congestion (explainable rules)
+      const baseCong = data[data.length - 1].congestion; // 0-1
+      const basePercent = Math.round(baseCong * 100);
+      const baseVolume = 500; // representative vehicles/hour baseline for estimation
 
-      // Customize the outcome based on what dropdown the user picks!
+      let outcome = { status: 'success' };
       if (simScenario === 'Divert Traffic (Accident Simulation)') {
-        outcome.impact = 'Congestion drops by 15% at ' + simNode;
-        outcome.volume = `450 vehicles per hour are safely rerouted away from the blocked ${simNode} area to minimize stalling.`;
-        outcome.environmental = 'Idling drops, resulting in a -12 Point reduction in local AQI (better air quality).';
-      }
-      else if (simScenario === 'Signal Timing Adjustment (+15s Green)') {
-        outcome.impact = 'Traffic throughput increases by 22% at ' + simNode;
-        outcome.volume = 'Allows an extra 120 cars to pass through the intersection per light cycle without stopping.';
-        outcome.environmental = 'Fewer start/stop accelerations lowers carbon emissions by 4%.';
-      }
-      else if (simScenario === 'Heavy Vehicle Ban (Peak Hours)') {
-        outcome.impact = 'Overall speed limit fluidity improves by 35% on ' + simNode;
-        outcome.volume = 'Temporarily removes 80 large trucks/buses per hour, freeing up lanes for passenger vehicles.';
-        outcome.environmental = 'Massive -25 Point drop in AQI due to reduced heavy diesel exhaust.';
+        const factor = 0.15; // 15% reduction factor
+        const newCong = Math.max(0, baseCong * (1 - factor));
+        const reductionPct = Math.round((baseCong - newCong) * 100);
+        const vehiclesRerouted = Math.round((reductionPct / 100) * baseVolume);
+        const aqiChange = Math.round(reductionPct * 0.8);
+        outcome.impact = `Estimated congestion reduced by ${reductionPct}% at ${simNode} (from ${Math.round(baseCong*100)}% to ${Math.round(newCong*100)}%)`;
+        outcome.volume = `${vehiclesRerouted} vehicles per hour rerouted from ${simNode}`;
+        outcome.environmental = `Approx. -${aqiChange} AQI points (reduced idling)`;
+      } else if (simScenario === 'Signal Timing Adjustment (+15s Green)') {
+        const factor = 0.22; // 22% improvement
+        const newCong = Math.max(0, baseCong * (1 - factor));
+        const improvementPct = Math.round((baseCong - newCong) * 100);
+        const extraThroughput = Math.round((improvementPct / 100) * baseVolume);
+        const emissionChange = Math.round(improvementPct * 0.3);
+        outcome.impact = `Estimated congestion reduced by ${improvementPct}% at ${simNode} (from ${Math.round(baseCong*100)}% to ${Math.round(newCong*100)}%)`;
+        outcome.volume = `${extraThroughput} extra vehicles/hour pass through ${simNode}`;
+        outcome.environmental = `Approx. -${emissionChange} AQI points (fewer start/stop events)`;
+      } else if (simScenario === 'Heavy Vehicle Ban (Peak Hours)') {
+        const factor = 0.35; // 35% improvement
+        const newCong = Math.max(0, baseCong * (1 - factor));
+        const improvementPct = Math.round((baseCong - newCong) * 100);
+        const freedLaneVehicles = Math.round((improvementPct / 100) * baseVolume);
+        const aqiChange = Math.round(improvementPct * 0.9);
+        outcome.impact = `Estimated congestion reduced by ${improvementPct}% at ${simNode} (from ${Math.round(baseCong*100)}% to ${Math.round(newCong*100)}%)`;
+        outcome.volume = `${freedLaneVehicles} passenger-vehicle-equivalents/hour freed by banning heavy vehicles`;
+        outcome.environmental = `Approx. -${aqiChange} AQI points (reduced diesel load)`;
       }
 
       setSimulationResult(outcome);
@@ -134,6 +283,7 @@ function App() {
         <div className="status-badge">
           <div className="status-dot"></div>
           System Online
+          <span style={{ marginLeft: 12, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>{time.toLocaleTimeString()}</span>
         </div>
       </div>
 
@@ -156,7 +306,7 @@ function App() {
 
           <div className="stat-card glass-panel" style={{ background: 'rgba(255,255,255,0.02)' }}>
             <span className="stat-title"><Clock size={16} style={{ display: 'inline', marginRight: 8 }} />Peak Traffic Hour</span>
-            <span className="stat-value" style={{ color: 'var(--warning)' }}>18:00</span>
+            <span className="stat-value" style={{ color: 'var(--warning)' }}>{peakHour}</span>
             <span className="stat-trend">Historically highest congestion</span>
           </div>
 
@@ -170,8 +320,17 @@ function App() {
 
       {/* Center Panel: Map & Visuals */}
       <div className="main-view">
-        <div className="map-container glass-panel">
-          <div className="map-content">
+        <div
+          className="map-container glass-panel"
+          style={{
+            backgroundImage: `url(${nodeImages[activeNode]})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            position: 'relative'
+          }}
+        >
+          <div className="overlay"></div>
+          <div className="map-content" style={{ zIndex: 20 }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '8px', zIndex: 20 }}>Intersection Network</h3>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', zIndex: 20 }}>Select node to view localized metrics</p>
 
@@ -179,19 +338,19 @@ function App() {
               <div className="twin-node" onClick={() => setActiveNode('MC Road Segment')}>
                 <div className="node-circle" style={{ borderColor: activeNode === 'MC Road Segment' ? 'var(--accent-blue)' : 'var(--accent-cyan)' }}>🛣️</div>
                 <span className="node-label">MC Road<br />Segment</span>
-                <span className="node-status status-good">Flowing</span>
+                <span className={getStatusClass(getNodeLabel('MC Road Segment'))}>{getNodeLabel('MC Road Segment')}</span>
               </div>
 
               <div className="twin-node" onClick={() => setActiveNode('Central Junction')} style={{ marginTop: '-40px' }}>
                 <div className="node-circle" style={{ borderColor: activeNode === 'Central Junction' ? 'var(--accent-blue)' : 'var(--danger)', boxShadow: '0 0 30px rgba(239, 68, 68, 0.4)' }}>🚦</div>
                 <span className="node-label">Central<br />Junction</span>
-                <span className="node-status status-heavy">Heavy</span>
+                <span className={getStatusClass(getNodeLabel('Central Junction'))}>{getNodeLabel('Central Junction')}</span>
               </div>
 
               <div className="twin-node" onClick={() => setActiveNode('Market Area')}>
                 <div className="node-circle" style={{ borderColor: activeNode === 'Market Area' ? 'var(--accent-blue)' : 'var(--warning)', boxShadow: '0 0 20px rgba(245, 158, 11, 0.4)' }}>🛒</div>
                 <span className="node-label">Market<br />Area</span>
-                <span className="node-status status-moderate">Moderate</span>
+                <span className={getStatusClass(getNodeLabel('Market Area'))}>{getNodeLabel('Market Area')}</span>
               </div>
             </div>
           </div>
@@ -199,23 +358,17 @@ function App() {
 
         <div className="glass-panel" style={{ padding: '24px', flex: 1 }}>
           <h3 style={{ marginBottom: '20px', fontSize: '1.2rem', fontWeight: 600 }}>{activeNode} - Historical Flow</h3>
-          <div style={{ width: '100%', height: 'calc(100% - 45px)', minHeight: '200px' }}>
+            <div style={{ width: '100%', height: 'calc(100% - 45px)', minHeight: '200px' }}>
             <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="colorSpeed" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="var(--accent-blue)" stopOpacity={0.8} />
-                    <stop offset="95%" stopColor="var(--accent-blue)" stopOpacity={0} />
-                  </linearGradient>
-                </defs>
+              <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <XAxis dataKey="time" stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
                 <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
                 <Tooltip
                   contentStyle={{ backgroundColor: 'var(--glass-bg)', border: '1px solid var(--glass-border)', borderRadius: '8px' }}
                   itemStyle={{ color: 'var(--text-primary)' }}
                 />
-                <Area type="monotone" dataKey="speed" stroke="var(--accent-blue)" strokeWidth={3} fillOpacity={1} fill="url(#colorSpeed)" />
-              </AreaChart>
+                <Line type="monotone" dataKey="value" stroke="var(--accent-blue)" strokeWidth={3} dot={{ r: 2 }} />
+              </LineChart>
             </ResponsiveContainer>
           </div>
         </div>
@@ -241,27 +394,50 @@ function App() {
         <div className="prediction-panel" style={{ marginTop: 'auto' }}>
           <div className="panel-title">LSTM Network Forecasts</div>
 
-          <div className="prediction-item">
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontWeight: 500 }}>Central Junction</span>
-              <span style={{ color: 'var(--danger)', fontWeight: 600, fontSize: '1.1rem' }}>92%</span>
-            </div>
-            <span className="prediction-time">Peak expected 16:00 - 18:30</span>
-            <div className="prediction-bar-container">
-              <div className="prediction-bar" style={{ width: '92%', background: 'linear-gradient(90deg, var(--warning), var(--danger))' }}></div>
-            </div>
-          </div>
+          {/** Render each node prediction card dynamically to ensure forecasts are per-location */}
+          {['Central Junction', 'MC Road Segment', 'Market Area'].map((nodeName) => {
+            const locationKey = nodeName;
+            const fc = getForecastForLocation(locationKey);
+            const nextVal = fc[0]?.value;
+            console.log('NODE:', locationKey);
+            console.log('FORECAST:', fc);
+            return (
+              <div key={locationKey} className="prediction-item">
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span style={{ fontWeight: 500 }}>{locationKey}</span>
+                  <span style={{ color: locationKey === 'Central Junction' ? 'var(--danger)' : locationKey === 'Market Area' ? 'var(--warning)' : 'var(--accent-blue)', fontWeight: 600, fontSize: '1.1rem' }}>{getPredictionValue(locationKey)}%</span>
+                </div>
+                <span className="prediction-time">{getPredictionValue(locationKey) === '...' ? 'Prediction unavailable' : (getPredictionValue(locationKey) > 75 ? 'High likelihood of heavy congestion' : getPredictionValue(locationKey) > 40 ? 'Moderate congestion likely' : 'Low congestion risk')}</span>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: 6 }}>{getPredictionTrend(locationKey)}</div>
+                <div className="prediction-bar-container">
+                  <div className="prediction-bar" style={{ width: `${getPredictionValue(locationKey) === '...' ? 0 : getPredictionValue(locationKey)}%` }}></div>
+                </div>
 
-          <div className="prediction-item">
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontWeight: 500 }}>Market Area</span>
-              <span style={{ color: 'var(--warning)', fontWeight: 600, fontSize: '1.1rem' }}>65%</span>
-            </div>
-            <span className="prediction-time">Moderate flow next 2 hours</span>
-            <div className="prediction-bar-container">
-              <div className="prediction-bar" style={{ width: '65%' }}></div>
-            </div>
+                <div style={{ marginTop: 8, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+                  Expected at {fc[0]?.time || '—'} → {getLabelFromValue(nextVal)}
+                </div>
+              </div>
+            );
+          })}
+
+          <div style={{ marginTop: 8, fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+            Prediction based on historical data + LSTM model (explainable, deterministic inputs).
           </div>
+        </div>
+
+        {/* Optional: image preview for active node */}
+        <div style={{ marginTop: 12 }}>
+          <img
+            src={nodeImages[activeNode]}
+            alt={`${activeNode} preview`}
+            style={{
+              width: '100%',
+              borderRadius: '10px',
+              marginTop: '10px',
+              opacity: 0.95,
+              border: '1px solid rgba(255,255,255,0.06)'
+            }}
+          />
         </div>
 
         <div style={{ marginTop: 'auto', paddingTop: '24px' }}>

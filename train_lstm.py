@@ -69,3 +69,4 @@ model_filename = 'traffic_lstm_model.h5'
 model.save(model_filename)
 print(f"Model successfully saved to {model_filename}!")
 print("Digital Twin predictive backend component is ready.")
+print("Dataset size:", len(df))
