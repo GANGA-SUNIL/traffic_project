@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { Activity, Car, AlertTriangle, Battery, Navigation, Clock, Wind, X } from 'lucide-react';
+import SignalSimulator from './components/SignalSimulator';
+import RouteOptimizer from './components/RouteOptimizer';
+import EmergencyMode from './components/EmergencyMode';
+import WhatIfPanel from './components/WhatIfPanel';
+import DecisionInsights from './components/DecisionInsights';
+import NodeImagePanel from './components/NodeImagePanel';
 
 // Accurate historical traffic data processed from dataset for Central Junction
 const DATASET_HOURLY_MEANS = [
@@ -37,10 +43,11 @@ const INSIGHTS = [
 ];
 
 function App() {
+  // Use lightweight external images (replace with local files if desired)
   const nodeImages = {
-    "Central Junction": "/images/central.jpg",
-    "Market Area": "/images/market.jpg",
-    "MC Road Segment": "/images/mcroad.jpg",
+    "Central Junction": "https://images.unsplash.com/photo-1501601964896-5a6e0f2f6f1b?w=1200&q=60&auto=format&fit=crop",
+    "Market Area": "https://images.unsplash.com/photo-1505765050364-3d8c3d8f6b2f?w=1200&q=60&auto=format&fit=crop",
+    "MC Road Segment": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=60&auto=format&fit=crop",
   };
   // explicit key mapping to ensure UI keys align with backend payload keys
   const keyMap = {
@@ -59,6 +66,9 @@ function App() {
   const [predictions, setPredictions] = useState({});
   const [time, setTime] = useState(new Date());
   const [peakHour, setPeakHour] = useState('18:00');
+  const [emergencyRoute, setEmergencyRoute] = useState(null);
+  const [whatIfSettings, setWhatIfSettings] = useState({ rain: false, blockage: false, peak: false });
+  const [disabledNodes, setDisabledNodes] = useState([]);
 
   // Playback the dataset accurately over time
   useEffect(() => {
@@ -185,6 +195,22 @@ function App() {
     return 'Prediction unavailable';
   };
 
+  // New: compute percent and user-facing label from prediction value
+  const getPercentAndLabel = (location) => {
+    const locationKey = keyMap[location] || location;
+    const p = predictions[locationKey] || {};
+    const value = (p?.forecast && p.forecast[0] && p.forecast[0].value) || p?.predicted;
+    if (typeof value !== 'number') return { percent: null, label: 'Prediction unavailable' };
+    const percent = Number((value * 100).toFixed(1));
+    const getLabel = (val) => {
+      const pval = val * 100;
+      if (pval < 30) return 'Flowing';
+      if (pval < 70) return 'Moderate';
+      return 'Heavy';
+    };
+    return { percent, label: getLabel(value) };
+  };
+
   const getStatusClass = (label) => {
     if (label === 'Flowing') return 'node-status status-good';
     if (label === 'Moderate') return 'node-status status-moderate';
@@ -220,6 +246,34 @@ function App() {
     // fallback: map historical dataset to value (use congestion) — scale to percent for visualization
     return data.map(d => ({ time: d.time, value: d.congestion * 100 }));
   })();
+
+  // Tooltip / axis format helpers: handle values that may be 0-1 or already 0-100
+  const normalizeToPercent = (v) => {
+    if (v === undefined || v === null || Number.isNaN(v)) return null;
+    const num = Number(v);
+    return num > 1 ? num : num * 100;
+  };
+
+  const formatValue = (value) => {
+    const pct = normalizeToPercent(value);
+    if (pct === null) return '—';
+    const percent = pct.toFixed(1);
+    let label = 'Flowing';
+    if (pct < 30) label = 'Flowing';
+    else if (pct < 70) label = 'Moderate';
+    else label = 'Heavy';
+    return `${percent}% → ${label}`;
+  };
+
+  const statusColor = (pct) => {
+    if (pct === null || pct === undefined) return 'var(--text-secondary)';
+    if (pct < 30) return '#22c55e';
+    if (pct < 70) return '#facc15';
+    return '#ef4444';
+  };
+
+  const activePct = getPercentAndLabel(activeNode).percent;
+  const strokeColor = statusColor(activePct);
 
   const getLabelFromValue = (val) => {
     if (val === undefined || val === null) return 'Prediction unavailable';
@@ -335,20 +389,20 @@ function App() {
             <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', zIndex: 20 }}>Select node to view localized metrics</p>
 
             <div className="twin-nodes">
-              <div className="twin-node" onClick={() => setActiveNode('MC Road Segment')}>
+              <div className="twin-node" onClick={() => setActiveNode('MC Road Segment')} style={{ boxShadow: activeNode === 'MC Road Segment' ? '0 0 15px rgba(34,197,94,0.35)' : 'none', transform: activeNode === 'MC Road Segment' ? 'scale(1.05)' : 'scale(1)', transition: 'transform 0.15s ease' }}>
                 <div className="node-circle" style={{ borderColor: activeNode === 'MC Road Segment' ? 'var(--accent-blue)' : 'var(--accent-cyan)' }}>🛣️</div>
                 <span className="node-label">MC Road<br />Segment</span>
                 <span className={getStatusClass(getNodeLabel('MC Road Segment'))}>{getNodeLabel('MC Road Segment')}</span>
               </div>
 
-              <div className="twin-node" onClick={() => setActiveNode('Central Junction')} style={{ marginTop: '-40px' }}>
-                <div className="node-circle" style={{ borderColor: activeNode === 'Central Junction' ? 'var(--accent-blue)' : 'var(--danger)', boxShadow: '0 0 30px rgba(239, 68, 68, 0.4)' }}>🚦</div>
+              <div className="twin-node" onClick={() => setActiveNode('Central Junction')} style={{ marginTop: '-40px', boxShadow: activeNode === 'Central Junction' ? '0 0 15px rgba(34,197,94,0.35)' : 'none', transform: activeNode === 'Central Junction' ? 'scale(1.05)' : 'scale(1)', transition: 'transform 0.15s ease' }}>
+                <div className="node-circle" style={{ borderColor: activeNode === 'Central Junction' ? 'var(--accent-blue)' : 'var(--danger)', boxShadow: activeNode === 'Central Junction' ? '0 0 20px rgba(34,197,94,0.4)' : '0 0 30px rgba(239, 68, 68, 0.4)' }}>🚦</div>
                 <span className="node-label">Central<br />Junction</span>
                 <span className={getStatusClass(getNodeLabel('Central Junction'))}>{getNodeLabel('Central Junction')}</span>
               </div>
 
-              <div className="twin-node" onClick={() => setActiveNode('Market Area')}>
-                <div className="node-circle" style={{ borderColor: activeNode === 'Market Area' ? 'var(--accent-blue)' : 'var(--warning)', boxShadow: '0 0 20px rgba(245, 158, 11, 0.4)' }}>🛒</div>
+              <div className="twin-node" onClick={() => setActiveNode('Market Area')} style={{ boxShadow: activeNode === 'Market Area' ? '0 0 15px rgba(34,197,94,0.35)' : 'none', transform: activeNode === 'Market Area' ? 'scale(1.05)' : 'scale(1)', transition: 'transform 0.15s ease' }}>
+                <div className="node-circle" style={{ borderColor: activeNode === 'Market Area' ? 'var(--accent-blue)' : 'var(--warning)', boxShadow: activeNode === 'Market Area' ? '0 0 20px rgba(34,197,94,0.4)' : '0 0 20px rgba(245, 158, 11, 0.4)' }}>🛒</div>
                 <span className="node-label">Market<br />Area</span>
                 <span className={getStatusClass(getNodeLabel('Market Area'))}>{getNodeLabel('Market Area')}</span>
               </div>
@@ -362,12 +416,16 @@ function App() {
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <XAxis dataKey="time" stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
-                <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
+                <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} tickFormatter={(val) => {
+                    const pct = normalizeToPercent(val);
+                    return pct === null ? '—' : `${Math.round(pct)}%`;
+                  }} />
                 <Tooltip
                   contentStyle={{ backgroundColor: 'var(--glass-bg)', border: '1px solid var(--glass-border)', borderRadius: '8px' }}
                   itemStyle={{ color: 'var(--text-primary)' }}
+                  formatter={(value) => formatValue(value)}
                 />
-                <Line type="monotone" dataKey="value" stroke="var(--accent-blue)" strokeWidth={3} dot={{ r: 2 }} />
+                <Line type="monotone" dataKey="value" stroke={strokeColor} strokeWidth={3} dot={{ r: 2 }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -404,18 +462,26 @@ function App() {
             return (
               <div key={locationKey} className="prediction-item">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontWeight: 500 }}>{locationKey}</span>
-                  <span style={{ color: locationKey === 'Central Junction' ? 'var(--danger)' : locationKey === 'Market Area' ? 'var(--warning)' : 'var(--accent-blue)', fontWeight: 600, fontSize: '1.1rem' }}>{getPredictionValue(locationKey)}%</span>
+                      <span style={{ fontWeight: 500 }}>{locationKey}</span>
+                              {(() => {
+                                const pl = getPercentAndLabel(locationKey);
+                                const color = statusColor(pl.percent);
+                                return (
+                                  <span style={{ color, fontWeight: 600, fontSize: '1.1rem' }}>
+                                    {pl.percent !== null ? `${pl.percent}% → ${pl.label}` : 'Prediction unavailable'}
+                                  </span>
+                                );
+                              })()}
                 </div>
-                <span className="prediction-time">{getPredictionValue(locationKey) === '...' ? 'Prediction unavailable' : (getPredictionValue(locationKey) > 75 ? 'High likelihood of heavy congestion' : getPredictionValue(locationKey) > 40 ? 'Moderate congestion likely' : 'Low congestion risk')}</span>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: 6 }}>{getPredictionTrend(locationKey)}</div>
-                <div className="prediction-bar-container">
-                  <div className="prediction-bar" style={{ width: `${getPredictionValue(locationKey) === '...' ? 0 : getPredictionValue(locationKey)}%` }}></div>
-                </div>
+                            <span className="prediction-time">{(() => { const pl = getPercentAndLabel(locationKey); return pl.percent !== null ? (pl.percent >= 70 ? 'High likelihood of heavy congestion' : pl.percent >= 40 ? 'Moderate congestion likely' : 'Low congestion risk') : 'Prediction unavailable'; })()}</span>
+                    <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: 6 }}>{getPredictionTrend(locationKey)}</div>
+                        <div className="prediction-bar-container">
+                          <div className="prediction-bar" style={{ width: `${(() => { const pl = getPercentAndLabel(locationKey); return pl.percent !== null ? pl.percent : 0; })()}%`, background: (() => { const pl = getPercentAndLabel(locationKey); const c = statusColor(pl.percent); return `linear-gradient(90deg, ${c}, rgba(255,255,255,0.06))`; })() }}></div>
+                        </div>
 
-                <div style={{ marginTop: 8, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-                  Expected at {fc[0]?.time || '—'} → {getLabelFromValue(nextVal)}
-                </div>
+                    <div style={{ marginTop: 8, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+                      Expected at {fc[0]?.time || '—'} → {getLabelFromValue(nextVal)}
+                    </div>
               </div>
             );
           })}
@@ -427,17 +493,33 @@ function App() {
 
         {/* Optional: image preview for active node */}
         <div style={{ marginTop: 12 }}>
-          <img
-            src={nodeImages[activeNode]}
-            alt={`${activeNode} preview`}
-            style={{
-              width: '100%',
-              borderRadius: '10px',
-              marginTop: '10px',
-              opacity: 0.95,
-              border: '1px solid rgba(255,255,255,0.06)'
-            }}
-          />
+          <NodeImagePanel activeNode={activeNode} imageUrl={nodeImages[activeNode]} prediction={predictions[activeNode]} />
+        </div>
+
+        {/* Decision & Control Widgets */}
+        <div style={{ marginTop: 12 }}>
+          <DecisionInsights predictions={predictions} />
+        </div>
+
+        <div style={{ marginTop: 12 }}>
+          <SignalSimulator activeNode={activeNode} predictions={predictions} adjustmentPct={15} />
+        </div>
+
+        <div style={{ marginTop: 12 }}>
+          <RouteOptimizer predictions={predictions} onSuggest={(o) => console.log('Route suggestion', o)} />
+        </div>
+
+        <div style={{ marginTop: 12 }}>
+          <EmergencyMode predictions={predictions} onActivate={(path, reduced) => setEmergencyRoute(path ? { path, reduced } : null)} />
+        </div>
+
+        <div style={{ marginTop: 12 }}>
+          <WhatIfPanel settings={whatIfSettings} onChange={(s) => {
+            setWhatIfSettings(s);
+            // simple effect: if blockage set, disable Market Area
+            setDisabledNodes(s.blockage ? ['Market Area'] : []);
+            // don't alter core prediction logic; UI components read whatIfSettings directly if needed
+          }} />
         </div>
 
         <div style={{ marginTop: 'auto', paddingTop: '24px' }}>
