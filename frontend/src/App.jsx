@@ -42,6 +42,15 @@ const INSIGHTS = [
   { icon: '🚦', title: 'Smart Divert Ready', desc: 'Suggesting alternate route via MC Road to bypass Market blockage.', status: 'success' }
 ];
 
+const openRouteMap = () => {
+  const url = "https://www.google.com/maps/dir/" +
+                "Kothamangalam+Junction/" +
+                "MC+Road+Kothamangalam/" +
+                "Kothamangalam+Market";
+
+  window.open(url, "_blank");
+};
+
 function App() {
   // Use lightweight external images (replace with local files if desired)
   const nodeImages = {
@@ -326,6 +335,24 @@ function App() {
     }, 1500);
   };
 
+  const openMap = (location) => {
+    let url = "";
+
+    if (location === "Central Junction") {
+      url = "https://www.google.com/maps?q=Kothamangalam+Junction&layer=t";
+    }
+    else if (location === "MC Road Segment") {
+      url = "https://www.google.com/maps?q=MC+Road+Kothamangalam&layer=t";
+    }
+    else if (location === "Market Area") {
+      url = "https://www.google.com/maps?q=Kothamangalam+Market&layer=t";
+    }
+
+    if (url) {
+      window.open(url, "_blank");
+    }
+  };
+
   return (
     <div className="dashboard-container">
       {/* Header spanning exactly across */}
@@ -334,6 +361,9 @@ function App() {
           <h1>Traffic Digital Twin</h1>
           <p>Kothamangalam Town Real-Time Monitoring</p>
         </div>
+        <button onClick={openRouteMap} className="control-btn" style={{padding: '8px 16px', height: 'fit-content', alignSelf: 'center'}}>
+          🗺️ View Network Route
+        </button>
         <div className="status-badge">
           <div className="status-dot"></div>
           System Online
@@ -494,6 +524,12 @@ function App() {
         {/* Optional: image preview for active node */}
         <div style={{ marginTop: 12 }}>
           <NodeImagePanel activeNode={activeNode} imageUrl={nodeImages[activeNode]} prediction={predictions[activeNode]} />
+          <button
+            onClick={() => openMap(activeNode)}
+            style={{ marginTop: "10px", width: '100%', padding: '10px', background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', color: 'var(--text-primary)', borderRadius: '8px', cursor: 'pointer' }}
+          >
+            📍 View on Map
+          </button>
         </div>
 
         {/* Decision & Control Widgets */}
@@ -502,7 +538,9 @@ function App() {
         </div>
 
         <div style={{ marginTop: 12 }}>
-          <SignalSimulator activeNode={activeNode} predictions={predictions} adjustmentPct={15} />
+          {activeNode === "Central Junction" && (
+            <SignalSimulator activeNode={activeNode} predictions={predictions} adjustmentPct={15} />
+          )}
         </div>
 
         <div style={{ marginTop: 12 }}>

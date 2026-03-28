@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Simple visual component to compare BEFORE vs AFTER congestion
 export default function SignalSimulator({ activeNode, predictions }) {
+  const [greenTime, setGreenTime] = useState(15); // Default 15%
   const key = activeNode;
   const pred = (predictions && predictions[key]) || {};
 
@@ -11,29 +12,29 @@ export default function SignalSimulator({ activeNode, predictions }) {
   // STEP 2: Convert to percentage
   const percent = (typeof value === 'number') ? (value * 100) : null;
 
-  // STEP 3: Dynamic logic for green increase
-  let greenIncrease;
-  if (percent !== null) {
-    if (percent > 7) {
-      greenIncrease = 30;
-    } else if (percent > 4) {
-      greenIncrease = 20;
-    } else {
-      greenIncrease = 10;
-    }
-  } else {
-    greenIncrease = 10; // sensible default when prediction unavailable
-  }
+  // STEP 3: (REMOVED) Dynamic logic for green increase is now state-driven
 
-  // STEP 4: Compute result
+  // STEP 4: Compute result using state
   const before = percent !== null ? Number(percent.toFixed(1)) : null;
-  const after = before !== null ? Number((before * (1 - greenIncrease / 100)).toFixed(1)) : null;
+  const after = before !== null ? Number((before * (1 - greenTime / 100)).toFixed(1)) : null;
 
   return (
     <div className="signal-simulator" style={{ marginTop: 12 }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <strong>Signal Simulator — {activeNode}</strong>
-        <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Green Time = {greenIncrease}%</span>
+        <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Green Time: {greenTime}%</span>
+      </div>
+
+      {/* New: Interactive Slider */}
+      <div style={{ marginTop: 8 }}>
+        <input
+          type="range"
+          min="5"
+          max="50"
+          value={greenTime}
+          onChange={(e) => setGreenTime(Number(e.target.value))}
+          style={{ width: '100%' }}
+        />
       </div>
 
       <div style={{ marginTop: 8 }}>
